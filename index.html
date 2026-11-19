@@ -1,0 +1,1688 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>蒂娜muchitina_创作者品牌_官方影像门户</title>
+<meta name="description" content="蒂娜muchitina官方网站，记录城市生活影像与原创创作，涵盖品牌故事、创作者动态与精品内容生态。">
+<meta name="keywords" content="蒂娜muchitina,官方网站,原创视频,创作者,品牌故事">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232c2a4a'/%3E%3Ccircle cx='32' cy='32' r='15' fill='none' stroke='%23ffb86b' stroke-width='4'/%3E%3Cpath d='M28 24 L44 32 L28 40 Z' fill='%23ffb86b'/%3E%3C/svg%3E">
+<style>
+:root{
+  --tnm-ink:#232135;
+  --tnm-deep:#2c2a4a;
+  --tnm-muted:#6d6a86;
+  --tnm-line:#e3e1f0;
+  --tnm-bg:#f7f6fc;
+  --tnm-card:#ffffff;
+  --tnm-accent:#ff8c5a;
+  --tnm-accent2:#7b6cff;
+  --tnm-gold:#ffc46b;
+  --tnm-shadow:0 18px 40px -24px rgba(44,42,74,.45);
+  --tnm-radius:18px;
+  --tnm-sticky:118px;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,sans-serif;
+  background:var(--tnm-bg);
+  color:var(--tnm-ink);
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+img{display:block;max-width:100%;}
+a{color:inherit;text-decoration:none;}
+button{font-family:inherit;cursor:pointer;border:none;background:none;}
+ul{list-style:none;}
+section{scroll-margin-top:var(--tnm-sticky);}
+
+/* ---------- 吸顶公告条 + 页头 ---------- */
+.tnm-sticky-shell{
+  position:sticky;top:0;z-index:80;
+}
+.tnm-notice-bar{
+  background:linear-gradient(90deg,#2c2a4a,#3d3a63 55%,#4a3f7a);
+  color:#efeaff;
+  font-size:13px;
+  letter-spacing:.3px;
+}
+.tnm-notice-inner{
+  max-width:1240px;margin:0 auto;padding:9px 22px;
+  display:flex;align-items:center;gap:12px;flex-wrap:wrap;
+}
+.tnm-notice-tag{
+  background:var(--tnm-gold);color:#3a2c10;font-weight:700;
+  font-size:11px;padding:2px 9px;border-radius:999px;letter-spacing:1px;
+  flex-shrink:0;
+}
+.tnm-notice-text{opacity:.92;font-size:13px;}
+.tnm-notice-text b{color:#ffd79a;font-weight:600;}
+.tnm-notice-more{
+  margin-left:auto;font-size:12px;color:#bfb6f0;
+  border-bottom:1px dashed rgba(191,182,240,.5);padding-bottom:1px;flex-shrink:0;
+}
+.tnm-notice-more:hover{color:#fff;}
+
+.tnm-header{
+  background:rgba(255,255,255,.92);
+  backdrop-filter:blur(14px);
+  border-bottom:1px solid var(--tnm-line);
+  box-shadow:0 6px 20px -18px rgba(44,42,74,.6);
+}
+.tnm-header-inner{
+  max-width:1240px;margin:0 auto;padding:0 22px;
+  height:76px;display:flex;align-items:center;gap:26px;
+}
+.tnm-brand{display:flex;align-items:center;gap:11px;flex-shrink:0;}
+.tnm-brand-mark{
+  width:40px;height:40px;border-radius:12px;
+  background:linear-gradient(140deg,#2c2a4a,#4a3f7a 60%,#ff8c5a);
+  display:flex;align-items:center;justify-content:center;
+  color:#fff;font-weight:800;font-size:15px;letter-spacing:.5px;
+}
+.tnm-brand-text{display:flex;flex-direction:column;line-height:1.15;}
+.tnm-brand-name{font-weight:800;font-size:17px;letter-spacing:.4px;color:var(--tnm-deep);}
+.tnm-brand-sub{font-size:10px;letter-spacing:2px;color:var(--tnm-muted);text-transform:uppercase;}
+.tnm-nav{display:flex;align-items:center;gap:4px;margin-left:8px;}
+.tnm-nav a{
+  font-size:14px;color:#4b4868;padding:8px 13px;border-radius:10px;
+  transition:.2s;font-weight:500;
+}
+.tnm-nav a:hover{background:#f0edff;color:var(--tnm-accent2);}
+.tnm-nav a.is-active{color:var(--tnm-accent2);background:#f0edff;font-weight:700;}
+.tnm-header-tools{margin-left:auto;display:flex;align-items:center;gap:12px;}
+.tnm-search{
+  display:flex;align-items:center;gap:6px;
+  background:#f0edff;border:1px solid transparent;border-radius:999px;
+  padding:6px 6px 6px 16px;transition:.25s;
+}
+.tnm-search:focus-within{background:#fff;border-color:#cfc6ff;box-shadow:0 0 0 4px rgba(123,108,255,.12);}
+.tnm-search input{
+  border:none;background:transparent;outline:none;font-size:13px;width:150px;color:var(--tnm-ink);
+}
+.tnm-search input::placeholder{color:#a19dbd;}
+.tnm-search button{
+  background:var(--tnm-accent2);color:#fff;font-size:12px;font-weight:600;
+  padding:6px 14px;border-radius:999px;transition:.2s;
+}
+.tnm-search button:hover{background:#6252f0;}
+.tnm-btn-ghost{
+  font-size:13px;font-weight:600;color:var(--tnm-deep);
+  border:1px solid var(--tnm-line);border-radius:10px;padding:8px 16px;transition:.2s;
+}
+.tnm-btn-ghost:hover{border-color:var(--tnm-accent2);color:var(--tnm-accent2);}
+.tnm-burger{display:none;flex-direction:column;gap:4px;padding:8px;border-radius:8px;}
+.tnm-burger span{display:block;width:20px;height:2px;background:var(--tnm-deep);border-radius:2px;transition:.3s;}
+.tnm-burger.is-open span:nth-child(1){transform:translateY(6px) rotate(45deg);}
+.tnm-burger.is-open span:nth-child(2){opacity:0;}
+.tnm-burger.is-open span:nth-child(3){transform:translateY(-6px) rotate(-45deg);}
+
+.tnm-mobile-nav{
+  display:none;background:#fff;border-bottom:1px solid var(--tnm-line);
+  padding:8px 22px 16px;
+}
+.tnm-mobile-nav a{
+  display:block;padding:11px 8px;font-size:14px;border-radius:8px;color:#4b4868;
+}
+.tnm-mobile-nav a:hover{background:#f5f3ff;color:var(--tnm-accent2);}
+.tnm-mobile-nav.is-open{display:block;}
+
+/* ---------- 通用容器 ---------- */
+.tnm-wrap{max-width:1240px;margin:0 auto;padding:0 22px;}
+.tnm-section{padding:72px 0;}
+.tnm-section-head{max-width:760px;margin-bottom:38px;}
+.tnm-eyebrow{
+  display:inline-flex;align-items:center;gap:8px;
+  font-size:12px;font-weight:700;letter-spacing:2px;color:var(--tnm-accent2);
+  text-transform:uppercase;margin-bottom:12px;
+}
+.tnm-eyebrow::before{
+  content:"";width:26px;height:2px;background:linear-gradient(90deg,var(--tnm-accent2),var(--tnm-accent));
+}
+.tnm-h2{
+  font-size:30px;line-height:1.3;color:var(--tnm-deep);
+  letter-spacing:.5px;font-weight:800;
+}
+.tnm-section-desc{margin-top:12px;color:var(--tnm-muted);font-size:15px;}
+.tnm-h3{font-size:18px;color:var(--tnm-deep);font-weight:700;}
+
+/* ---------- 首屏 ---------- */
+.tnm-hero{
+  background:
+    radial-gradient(circle at 85% 12%,rgba(255,140,90,.18),transparent 46%),
+    radial-gradient(circle at 6% 88%,rgba(123,108,255,.18),transparent 44%),
+    linear-gradient(160deg,#fbfaff,#f1eeff 70%,#fdf3ed);
+  padding:64px 0 72px;
+  position:relative;overflow:hidden;
+}
+.tnm-hero-grid{
+  display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:center;
+}
+.tnm-hero-badge{
+  display:inline-flex;align-items:center;gap:8px;
+  background:#fff;border:1px solid #e6e1ff;border-radius:999px;
+  padding:6px 15px;font-size:12px;font-weight:600;color:var(--tnm-accent2);
+  box-shadow:0 8px 20px -14px rgba(123,108,255,.6);
+}
+.tnm-hero-badge i{
+  width:7px;height:7px;border-radius:50%;background:var(--tnm-accent);
+  box-shadow:0 0 0 4px rgba(255,140,90,.2);
+}
+.tnm-hero h1{
+  font-size:clamp(38px,5.4vw,62px);
+  line-height:1.08;letter-spacing:-1px;color:var(--tnm-deep);
+  margin:22px 0 18px;font-weight:900;
+}
+.tnm-hero h1 em{
+  font-style:normal;
+  background:linear-gradient(110deg,var(--tnm-accent2),var(--tnm-accent));
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.tnm-hero-tagline{font-size:18px;font-weight:600;color:#37345a;margin-bottom:14px;}
+.tnm-hero-intro{font-size:14.5px;color:var(--tnm-muted);max-width:540px;}
+.tnm-hero-actions{display:flex;gap:14px;flex-wrap:wrap;margin:26px 0 32px;}
+.tnm-btn-primary{
+  background:linear-gradient(120deg,var(--tnm-accent2),#9b8bff);
+  color:#fff;font-weight:700;font-size:14px;padding:13px 28px;border-radius:12px;
+  box-shadow:0 16px 30px -16px rgba(123,108,255,.85);transition:.25s;
+  display:inline-flex;align-items:center;gap:8px;
+}
+.tnm-btn-primary:hover{transform:translateY(-2px);box-shadow:0 22px 34px -18px rgba(123,108,255,.9);}
+.tnm-btn-line{
+  border:1.5px solid #d3ccf5;color:var(--tnm-deep);font-weight:700;font-size:14px;
+  padding:13px 26px;border-radius:12px;background:#fff;transition:.25s;
+  display:inline-flex;align-items:center;gap:8px;
+}
+.tnm-btn-line:hover{border-color:var(--tnm-accent);color:var(--tnm-accent);}
+.tnm-hero-stats{display:flex;gap:34px;flex-wrap:wrap;}
+.tnm-stat b{
+  display:block;font-size:26px;font-weight:900;color:var(--tnm-deep);line-height:1.1;
+  letter-spacing:-.5px;
+}
+.tnm-stat span{font-size:12.5px;color:var(--tnm-muted);letter-spacing:.5px;}
+
+.tnm-hero-visual{position:relative;}
+.tnm-hero-cover{
+  border-radius:24px;overflow:hidden;box-shadow:var(--tnm-shadow);
+  border:1px solid #fff;background:#2c2a4a;position:relative;
+  aspect-ratio:16/11;
+}
+.tnm-hero-cover img{width:100%;height:100%;object-fit:cover;}
+.tnm-hero-float{
+  position:absolute;background:#fff;border-radius:14px;padding:12px 16px;
+  box-shadow:0 18px 36px -20px rgba(44,42,74,.6);
+  display:flex;align-items:center;gap:11px;
+}
+.tnm-hero-float small{display:block;font-size:11px;color:var(--tnm-muted);}
+.tnm-hero-float strong{font-size:13.5px;color:var(--tnm-deep);}
+.tnm-float-a{left:-22px;bottom:34px;}
+.tnm-float-b{right:-16px;top:28px;}
+.tnm-float-avatar{
+  width:34px;height:34px;border-radius:10px;display:flex;align-items:center;
+  justify-content:center;color:#fff;font-weight:800;font-size:14px;flex-shrink:0;
+}
+.tnm-float-a .tnm-float-avatar{background:linear-gradient(135deg,#ff8c5a,#ffc46b);}
+.tnm-float-b .tnm-float-avatar{background:linear-gradient(135deg,#7b6cff,#4a3f7a);}
+
+/* ---------- 关键词解析长文 ---------- */
+.tnm-about{background:#fff;border-top:1px solid var(--tnm-line);border-bottom:1px solid var(--tnm-line);}
+.tnm-about-grid{display:grid;grid-template-columns:.82fr 1.18fr;gap:56px;align-items:start;}
+.tnm-about-side{position:sticky;top:calc(var(--tnm-sticky) + 22px);}
+.tnm-about-side .tnm-h2{font-size:28px;}
+.tnm-about-side p{color:var(--tnm-muted);font-size:14px;margin-top:14px;}
+.tnm-about-quote{
+  margin-top:26px;padding:18px 20px;border-left:3px solid var(--tnm-accent);
+  background:#fff8f3;border-radius:0 12px 12px 0;font-size:13.5px;color:#7a5636;
+}
+.tnm-about-body p{font-size:14.5px;color:#4a4766;margin-bottom:18px;}
+.tnm-about-body h3{font-size:17px;color:var(--tnm-deep);margin:28px 0 10px;font-weight:800;}
+.tnm-about-body h3:first-child{margin-top:0;}
+.tnm-about-body strong{color:var(--tnm-accent2);font-weight:700;}
+.tnm-about-body .tnm-inline-tag{
+  display:inline-block;background:#f0edff;color:#5a4be0;font-size:12px;
+  padding:1px 9px;border-radius:6px;font-weight:600;margin:0 1px;
+}
+.tnm-about-body ul{padding-left:2px;margin-bottom:18px;}
+.tnm-about-body ul li{
+  font-size:14px;color:#4a4766;padding-left:20px;position:relative;margin-bottom:8px;
+}
+.tnm-about-body ul li::before{
+  content:"";position:absolute;left:0;top:11px;width:7px;height:7px;
+  border-radius:2px;background:var(--tnm-accent);transform:rotate(45deg);
+}
+
+/* ---------- 焦点视频 ---------- */
+.tnm-focus-grid{display:grid;grid-template-columns:1.4fr .6fr;gap:24px;}
+.tnm-focus-main{
+  border-radius:var(--tnm-radius);overflow:hidden;background:#fff;
+  box-shadow:var(--tnm-shadow);border:1px solid var(--tnm-line);
+  display:flex;flex-direction:column;
+}
+.tnm-focus-main .tnm-cover{aspect-ratio:16/9;}
+.tnm-focus-main .tnm-cover img{width:100%;height:100%;object-fit:cover;}
+.tnm-focus-body{padding:22px 24px 24px;}
+.tnm-focus-body h3{font-size:21px;color:var(--tnm-deep);line-height:1.4;font-weight:800;}
+.tnm-focus-body p{font-size:13.5px;color:var(--tnm-muted);margin-top:8px;}
+.tnm-focus-meta{
+  display:flex;align-items:center;gap:14px;margin-top:16px;font-size:12.5px;color:#8d89a8;
+  flex-wrap:wrap;
+}
+.tnm-focus-meta .tnm-tag{
+  background:#fff1e8;color:#c25d21;font-weight:700;padding:2px 9px;border-radius:6px;font-size:11.5px;
+}
+.tnm-focus-side{display:flex;flex-direction:column;gap:18px;}
+.tnm-focus-small{
+  display:flex;gap:14px;background:#fff;border:1px solid var(--tnm-line);
+  border-radius:14px;padding:12px;transition:.25s;
+}
+.tnm-focus-small:hover{transform:translateY(-3px);box-shadow:var(--tnm-shadow);border-color:#d9d3f7;}
+.tnm-focus-small .tnm-cover{width:118px;flex-shrink:0;border-radius:10px;aspect-ratio:16/10;overflow:hidden;}
+.tnm-focus-small .tnm-cover img{width:100%;height:100%;object-fit:cover;}
+.tnm-focus-small h4{font-size:13.5px;color:var(--tnm-deep);font-weight:700;line-height:1.45;}
+.tnm-focus-small span{display:block;font-size:11.5px;color:#8d89a8;margin-top:6px;}
+
+/* 视频封面通用层 */
+.tnm-cover{position:relative;overflow:hidden;background:#2c2a4a;}
+.tnm-cover::after{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(180deg,rgba(35,33,53,0) 40%,rgba(35,33,53,.62));
+  pointer-events:none;
+}
+.tnm-cover-play{
+  position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
+  width:46px;height:46px;border-radius:50%;background:rgba(255,255,255,.9);
+  display:flex;align-items:center;justify-content:center;z-index:2;
+  box-shadow:0 8px 20px -8px rgba(0,0,0,.5);
+}
+.tnm-cover-play svg{width:16px;height:16px;fill:var(--tnm-deep);margin-left:2px;}
+.tnm-cover-badge{
+  position:absolute;left:10px;top:10px;z-index:3;
+  background:rgba(35,33,53,.78);color:#ffe2c9;font-size:11px;font-weight:700;
+  padding:3px 9px;border-radius:6px;letter-spacing:.5px;
+}
+
+/* ---------- 视频流 ---------- */
+.tnm-video-sec{background:linear-gradient(180deg,#f7f6fc,#f1eefb);}
+.tnm-filter-bar{
+  display:flex;gap:9px;flex-wrap:wrap;margin-bottom:28px;
+}
+.tnm-filter-btn{
+  font-size:13px;font-weight:600;color:#5b5878;background:#fff;
+  border:1px solid var(--tnm-line);border-radius:999px;padding:7px 18px;transition:.22s;
+}
+.tnm-filter-btn:hover{border-color:#c4baff;color:var(--tnm-accent2);}
+.tnm-filter-btn.is-active{background:var(--tnm-deep);color:#fff;border-color:var(--tnm-deep);}
+.tnm-video-grid{
+  display:grid;grid-template-columns:repeat(3,1fr);gap:22px;
+}
+.tnm-video-card{
+  background:#fff;border:1px solid var(--tnm-line);border-radius:var(--tnm-radius);
+  overflow:hidden;transition:.28s;display:flex;flex-direction:column;
+}
+.tnm-video-card:hover{transform:translateY(-5px);box-shadow:var(--tnm-shadow);border-color:#d9d3f7;}
+.tnm-video-card .tnm-cover{aspect-ratio:16/9;}
+.tnm-video-card .tnm-cover img{width:100%;height:100%;object-fit:cover;transition:.5s;}
+.tnm-video-card:hover .tnm-cover img{transform:scale(1.05);}
+.tnm-video-card-body{padding:16px 17px 15px;display:flex;flex-direction:column;flex:1;}
+.tnm-video-card-body h3{
+  font-size:15px;color:var(--tnm-deep);font-weight:700;line-height:1.45;
+}
+.tnm-video-card-body p{
+  font-size:12.5px;color:var(--tnm-muted);margin-top:8px;flex:1;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
+}
+.tnm-video-card-foot{
+  display:flex;align-items:center;gap:9px;margin-top:14px;padding-top:13px;
+  border-top:1px dashed var(--tnm-line);
+}
+.tnm-mini-avatar{
+  width:26px;height:26px;border-radius:50%;flex-shrink:0;
+  display:flex;align-items:center;justify-content:center;
+  color:#fff;font-size:11px;font-weight:800;
+}
+.tnm-video-card-foot .tnm-author{font-size:12px;color:#5b5878;font-weight:600;}
+.tnm-video-card-foot .tnm-views{font-size:11.5px;color:#a19dbd;margin-left:auto;}
+.tnm-card-actions{display:flex;align-items:center;gap:6px;margin-left:auto;}
+.tnm-ico-btn{
+  display:inline-flex;align-items:center;gap:4px;font-size:11.5px;color:#8d89a8;
+  padding:3px 7px;border-radius:7px;transition:.18s;
+}
+.tnm-ico-btn:hover{background:#f5f3ff;color:var(--tnm-accent2);}
+.tnm-ico-btn svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:1.8;}
+.tnm-ico-btn.is-liked{color:#ff5a7a;}
+.tnm-ico-btn.is-liked svg{fill:#ff5a7a;stroke:#ff5a7a;}
+.tnm-ico-btn.is-saved{color:#ffa125;}
+.tnm-ico-btn.is-saved svg{fill:#ffa125;stroke:#ffa125;}
+.tnm-search-empty{
+  grid-column:1/-1;text-align:center;padding:56px 20px;color:var(--tnm-muted);font-size:14px;
+  background:#fff;border:1px dashed #d9d3f7;border-radius:var(--tnm-radius);
+}
+
+/* ---------- 专题 ---------- */
+.tnm-topic-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;}
+.tnm-topic-card{
+  position:relative;border-radius:var(--tnm-radius);overflow:hidden;
+  min-height:250px;display:flex;flex-direction:column;justify-content:flex-end;
+  padding:22px;color:#fff;transition:.3s;
+}
+.tnm-topic-card:hover{transform:translateY(-4px);}
+.tnm-topic-card img{
+  position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;
+  transition:.5s;
+}
+.tnm-topic-card:hover img{transform:scale(1.06);}
+.tnm-topic-card::after{
+  content:"";position:absolute;inset:0;z-index:1;
+  background:linear-gradient(180deg,rgba(35,33,53,.15),rgba(35,33,53,.85));
+}
+.tnm-topic-card > *{position:relative;z-index:2;}
+.tnm-topic-status{
+  align-self:flex-start;font-size:11px;font-weight:700;padding:3px 10px;border-radius:6px;
+  background:rgba(255,196,107,.92);color:#3a2c10;margin-bottom:auto;
+}
+.tnm-topic-card h3{font-size:18px;font-weight:800;line-height:1.4;}
+.tnm-topic-card p{font-size:12.5px;opacity:.85;margin-top:7px;}
+
+/* ---------- 创作者 ---------- */
+.tnm-creator-sec{background:#fff;border-top:1px solid var(--tnm-line);border-bottom:1px solid var(--tnm-line);}
+.tnm-creator-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;}
+.tnm-creator-card{
+  border:1px solid var(--tnm-line);border-radius:var(--tnm-radius);padding:24px 20px;
+  text-align:center;transition:.28s;background:#fff;cursor:pointer;
+}
+.tnm-creator-card:hover{transform:translateY(-4px);box-shadow:var(--tnm-shadow);border-color:#d9d3f7;}
+.tnm-creator-avatar{
+  width:64px;height:64px;border-radius:20px;margin:0 auto 14px;
+  display:flex;align-items:center;justify-content:center;
+  color:#fff;font-size:22px;font-weight:800;letter-spacing:.5px;
+}
+.tnm-creator-card h3{font-size:15.5px;color:var(--tnm-deep);font-weight:800;}
+.tnm-creator-field{
+  display:inline-block;font-size:11px;font-weight:700;color:#5a4be0;
+  background:#f0edff;padding:2px 9px;border-radius:6px;margin:8px 0 10px;
+}
+.tnm-creator-card p{font-size:12.5px;color:var(--tnm-muted);line-height:1.6;min-height:40px;}
+.tnm-creator-nums{
+  display:flex;justify-content:center;gap:20px;margin-top:14px;padding-top:13px;
+  border-top:1px dashed var(--tnm-line);
+}
+.tnm-creator-nums div{font-size:11px;color:#a19dbd;}
+.tnm-creator-nums b{display:block;font-size:14px;color:var(--tnm-deep);font-weight:800;}
+
+/* ---------- 作品墙 ---------- */
+.tnm-wall-grid{
+  display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:120px;gap:14px;
+}
+.tnm-wall-item{
+  border-radius:14px;overflow:hidden;position:relative;
+}
+.tnm-wall-item img{width:100%;height:100%;object-fit:cover;transition:.5s;}
+.tnm-wall-item:hover img{transform:scale(1.06);}
+.tnm-wall-item span{
+  position:absolute;left:0;right:0;bottom:0;padding:20px 12px 10px;
+  background:linear-gradient(180deg,transparent,rgba(35,33,53,.78));
+  color:#fff;font-size:11.5px;font-weight:600;z-index:2;
+}
+.tnm-wall-big{grid-column:span 2;grid-row:span 2;}
+.tnm-wall-med{grid-column:span 2;}
+.tnm-wall-tall{grid-row:span 2;}
+
+/* ---------- 评价 ---------- */
+.tnm-review-sec{background:linear-gradient(180deg,#f7f6fc,#f0edf9);}
+.tnm-review-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;columns:3;}
+.tnm-review-card{
+  background:#fff;border:1px solid var(--tnm-line);border-radius:16px;padding:20px 20px 18px;
+  transition:.25s;
+}
+.tnm-review-card:hover{box-shadow:var(--tnm-shadow);border-color:#d9d3f7;}
+.tnm-review-top{display:flex;align-items:center;gap:10px;margin-bottom:12px;}
+.tnm-review-card p{font-size:13px;color:#4a4766;line-height:1.7;}
+.tnm-review-name{font-size:13px;font-weight:700;color:var(--tnm-deep);}
+.tnm-review-date{font-size:11px;color:#a19dbd;}
+.tnm-review-stars{color:#ffb842;font-size:12px;letter-spacing:1px;margin-top:12px;}
+
+/* ---------- 动态 + FAQ ---------- */
+.tnm-split{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:start;}
+.tnm-timeline{position:relative;padding-left:26px;}
+.tnm-timeline::before{
+  content:"";position:absolute;left:6px;top:6px;bottom:6px;width:2px;
+  background:linear-gradient(180deg,var(--tnm-accent2),var(--tnm-accent));
+  border-radius:2px;opacity:.35;
+}
+.tnm-timeline-item{position:relative;padding-bottom:26px;}
+.tnm-timeline-item:last-child{padding-bottom:0;}
+.tnm-timeline-item::before{
+  content:"";position:absolute;left:-26px;top:6px;width:12px;height:12px;
+  border-radius:50%;background:#fff;border:3px solid var(--tnm-accent2);
+}
+.tnm-timeline-date{font-size:11.5px;color:var(--tnm-accent2);font-weight:700;letter-spacing:.5px;}
+.tnm-timeline-item h3{font-size:15px;color:var(--tnm-deep);font-weight:700;margin:5px 0 5px;}
+.tnm-timeline-item p{font-size:12.5px;color:var(--tnm-muted);}
+
+.tnm-faq details{
+  background:#fff;border:1px solid var(--tnm-line);border-radius:12px;
+  padding:0 18px;margin-bottom:11px;transition:.2s;
+}
+.tnm-faq details[open]{border-color:#d3ccf5;box-shadow:0 10px 26px -22px rgba(123,108,255,.7);}
+.tnm-faq summary{
+  padding:15px 0;font-size:14px;font-weight:700;color:var(--tnm-deep);
+  cursor:pointer;list-style:none;display:flex;align-items:center;justify-content:space-between;gap:12px;
+}
+.tnm-faq summary::-webkit-details-marker{display:none;}
+.tnm-faq summary::after{
+  content:"+";font-size:18px;color:var(--tnm-accent2);font-weight:400;transition:.25s;flex-shrink:0;
+}
+.tnm-faq details[open] summary::after{transform:rotate(45deg);}
+.tnm-faq details p{font-size:13px;color:var(--tnm-muted);padding-bottom:16px;line-height:1.75;}
+
+/* ---------- 联系 ---------- */
+.tnm-contact-sec{
+  background:linear-gradient(135deg,#2c2a4a,#3d3a63 55%,#4a3f7a);
+  color:#fff;border-radius:0;
+}
+.tnm-contact-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center;}
+.tnm-contact-sec .tnm-eyebrow{color:#ffb86b;}
+.tnm-contact-sec .tnm-eyebrow::before{background:linear-gradient(90deg,#ffb86b,var(--tnm-accent));}
+.tnm-contact-sec .tnm-h2{color:#fff;}
+.tnm-contact-sec p{color:#c9c3e8;font-size:14px;margin-top:14px;}
+.tnm-contact-actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:28px;}
+.tnm-contact-card{
+  background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.16);
+  border-radius:18px;padding:28px;
+}
+.tnm-contact-row{
+  display:flex;justify-content:space-between;gap:16px;padding:13px 0;
+  border-bottom:1px solid rgba(255,255,255,.1);font-size:13.5px;
+}
+.tnm-contact-row:last-child{border-bottom:none;}
+.tnm-contact-row span{color:#b6afd8;}
+.tnm-contact-row b{color:#fff;font-weight:600;}
+.tnm-contact-sec .tnm-btn-line{
+  background:transparent;color:#fff;border-color:rgba(255,255,255,.4);
+}
+.tnm-contact-sec .tnm-btn-line:hover{border-color:var(--tnm-gold);color:var(--tnm-gold);}
+
+/* ---------- 页脚 ---------- */
+.tnm-footer{background:#1d1b2e;color:#a9a4c4;padding:56px 0 0;font-size:13px;}
+.tnm-footer-grid{
+  display:grid;grid-template-columns:1.4fr .8fr .8fr .8fr;gap:34px;padding-bottom:40px;
+  border-bottom:1px solid rgba(255,255,255,.08);
+}
+.tnm-footer-brand{display:flex;align-items:center;gap:11px;margin-bottom:16px;}
+.tnm-footer-brand .tnm-brand-mark{background:linear-gradient(140deg,#4a3f7a,#7b6cff 60%,#ff8c5a);}
+.tnm-footer-brand-name{font-weight:800;font-size:16px;color:#fff;letter-spacing:.4px;}
+.tnm-footer p{line-height:1.8;color:#8d88ab;max-width:340px;font-size:12.5px;}
+.tnm-footer h4{color:#fff;font-size:13px;font-weight:700;margin-bottom:14px;letter-spacing:.5px;}
+.tnm-footer ul li{margin-bottom:9px;}
+.tnm-footer ul li a{color:#8d88ab;font-size:12.5px;transition:.2s;}
+.tnm-footer ul li a:hover{color:var(--tnm-gold);}
+.tnm-footer-bottom{
+  display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
+  padding:20px 0;font-size:12px;color:#77728f;
+}
+
+/* ---------- 弹窗 / Toast / 回顶 ---------- */
+.tnm-toast{
+  position:fixed;left:50%;bottom:38px;transform:translate(-50%,24px);
+  background:var(--tnm-deep);color:#fff;font-size:13px;font-weight:600;
+  padding:12px 24px;border-radius:12px;box-shadow:0 20px 40px -18px rgba(0,0,0,.55);
+  opacity:0;pointer-events:none;transition:.3s;z-index:200;
+}
+.tnm-toast.is-show{opacity:1;transform:translate(-50%,0);}
+.tnm-modal{
+  position:fixed;inset:0;z-index:180;display:flex;align-items:center;justify-content:center;
+  padding:22px;background:rgba(29,27,46,.6);backdrop-filter:blur(4px);
+  opacity:0;pointer-events:none;transition:.25s;
+}
+.tnm-modal.is-open{opacity:1;pointer-events:auto;}
+.tnm-modal-box{
+  background:#fff;border-radius:20px;max-width:480px;width:100%;padding:30px;
+  box-shadow:0 40px 80px -30px rgba(0,0,0,.5);transform:translateY(16px);transition:.28s;
+  max-height:86vh;overflow:auto;
+}
+.tnm-modal.is-open .tnm-modal-box{transform:translateY(0);}
+.tnm-modal-box h3{font-size:19px;color:var(--tnm-deep);font-weight:800;margin-bottom:8px;}
+.tnm-modal-box > p{font-size:13px;color:var(--tnm-muted);margin-bottom:18px;}
+.tnm-modal-close{
+  position:absolute;right:18px;top:18px;width:32px;height:32px;border-radius:50%;
+  background:#f2f0fa;color:#6d6a86;font-size:18px;display:flex;align-items:center;justify-content:center;
+}
+.tnm-modal-wrap{position:relative;}
+.tnm-field{margin-bottom:14px;}
+.tnm-field label{display:block;font-size:12.5px;font-weight:700;color:#4a4766;margin-bottom:6px;}
+.tnm-field input,.tnm-field textarea{
+  width:100%;border:1px solid var(--tnm-line);border-radius:10px;padding:10px 13px;
+  font-size:13px;font-family:inherit;outline:none;transition:.2s;background:#fbfaff;resize:vertical;
+}
+.tnm-field input:focus,.tnm-field textarea:focus{border-color:#b9adff;background:#fff;box-shadow:0 0 0 4px rgba(123,108,255,.1);}
+.tnm-modal-submit{
+  width:100%;background:linear-gradient(120deg,var(--tnm-accent2),#9b8bff);
+  color:#fff;font-weight:700;font-size:14px;padding:12px;border-radius:11px;margin-top:6px;
+}
+.tnm-modal-submit:hover{filter:brightness(1.06);}
+.tnm-share-row{display:flex;gap:10px;flex-wrap:wrap;}
+.tnm-share-btn{
+  flex:1;min-width:110px;text-align:center;font-size:13px;font-weight:600;
+  border:1px solid var(--tnm-line);border-radius:10px;padding:11px;transition:.2s;color:#4a4766;
+}
+.tnm-share-btn:hover{border-color:var(--tnm-accent2);color:var(--tnm-accent2);background:#f7f5ff;}
+.tnm-backtop{
+  position:fixed;right:24px;bottom:26px;width:44px;height:44px;border-radius:13px;
+  background:#fff;border:1px solid var(--tnm-line);color:var(--tnm-deep);
+  display:flex;align-items:center;justify-content:center;
+  box-shadow:0 14px 30px -16px rgba(44,42,74,.5);z-index:120;
+  opacity:0;pointer-events:none;transform:translateY(10px);transition:.28s;
+}
+.tnm-backtop.is-show{opacity:1;pointer-events:auto;transform:translateY(0);}
+.tnm-backtop:hover{background:var(--tnm-deep);color:#fff;border-color:var(--tnm-deep);}
+
+/* ---------- 响应式 ---------- */
+@media (max-width:1080px){
+  .tnm-hero-grid{grid-template-columns:1fr;gap:40px;}
+  .tnm-hero-visual{max-width:560px;}
+  .tnm-about-grid{grid-template-columns:1fr;gap:30px;}
+  .tnm-about-side{position:static;}
+  .tnm-video-grid{grid-template-columns:repeat(2,1fr);}
+  .tnm-topic-grid{grid-template-columns:repeat(2,1fr);}
+  .tnm-creator-grid{grid-template-columns:repeat(2,1fr);}
+  .tnm-review-grid{grid-template-columns:repeat(2,1fr);columns:2;}
+  .tnm-split{grid-template-columns:1fr;gap:38px;}
+  .tnm-contact-grid{grid-template-columns:1fr;gap:30px;}
+  .tnm-footer-grid{grid-template-columns:1fr 1fr;}
+  .tnm-nav{display:none;}
+  .tnm-burger{display:flex;}
+}
+@media (max-width:760px){
+  :root{--tnm-sticky:104px;}
+  .tnm-section{padding:52px 0;}
+  .tnm-h2{font-size:24px;}
+  .tnm-header-inner{height:64px;gap:14px;}
+  .tnm-brand-sub{display:none;}
+  .tnm-search{display:none;}
+  .tnm-btn-ghost{display:none;}
+  .tnm-notice-inner{padding:8px 16px;}
+  .tnm-notice-text{font-size:12px;}
+  .tnm-notice-more{display:none;}
+  .tnm-hero{padding:42px 0 52px;}
+  .tnm-hero h1{margin:18px 0 14px;}
+  .tnm-hero-stats{gap:24px;}
+  .tnm-hero-float{display:none;}
+  .tnm-focus-grid{grid-template-columns:1fr;}
+  .tnm-video-grid{grid-template-columns:1fr;}
+  .tnm-topic-grid{grid-template-columns:1fr;}
+  .tnm-creator-grid{grid-template-columns:1fr 1fr;gap:14px;}
+  .tnm-review-grid{grid-template-columns:1fr;columns:1;}
+  .tnm-wall-grid{grid-template-columns:repeat(2,1fr);grid-auto-rows:112px;}
+  .tnm-wall-big{grid-column:span 2;grid-row:span 2;}
+  .tnm-wall-med{grid-column:span 2;}
+  .tnm-wall-tall{grid-row:span 2;}
+  .tnm-footer-grid{grid-template-columns:1fr;gap:26px;}
+  .tnm-footer-bottom{flex-direction:column;gap:8px;}
+  .tnm-search input{width:110px;}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<!-- ============ 吸顶公告条 + 页头 ============ -->
+<div class="tnm-sticky-shell">
+  <div class="tnm-notice-bar">
+    <div class="tnm-notice-inner">
+      <span class="tnm-notice-tag">官方发布</span>
+      <span class="tnm-notice-text">2026 冬季影像企划《<b>城市微光·第二季</b>》已开放投稿报名，首期主题「街角的三分钟」上线，新增 12 条精选条目。</span>
+      <a class="tnm-notice-more" href="#tnm-submit">查看投稿细则 →</a>
+    </div>
+  </div>
+  <header class="tnm-header">
+    <div class="tnm-header-inner">
+      <a class="tnm-brand" href="#tnm-top" aria-label="蒂娜muchitina 官方首页">
+        <div class="tnm-brand-mark">TN</div>
+        <div class="tnm-brand-text">
+          <span class="tnm-brand-name">蒂娜muchitina</span>
+          <span class="tnm-brand-sub">Official Video</span>
+        </div>
+      </a>
+      <nav class="tnm-nav" aria-label="主导航">
+        <a href="#tnm-top" class="is-active">首页</a>
+        <a href="#tnm-focus">焦点视频</a>
+        <a href="#tnm-topics">专题企划</a>
+        <a href="#tnm-creators">创作者</a>
+        <a href="#tnm-wall">影像墙</a>
+        <a href="#tnm-news">企业动态</a>
+        <a href="#tnm-faq">帮助</a>
+        <a href="#tnm-contact">联系</a>
+      </nav>
+      <div class="tnm-header-tools">
+        <div class="tnm-search">
+          <input type="search" id="tnmSearchInput" placeholder="搜索内容 / 创作者" aria-label="站内搜索">
+          <button type="button" id="tnmSearchBtn">搜索</button>
+        </div>
+        <a class="tnm-btn-ghost" href="#tnm-submit">投稿入口</a>
+        <button class="tnm-burger" id="tnmBurger" aria-label="展开导航" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+    <nav class="tnm-mobile-nav" id="tnmMobileNav" aria-label="移动端导航">
+      <a href="#tnm-top">首页</a>
+      <a href="#tnm-focus">焦点视频</a>
+      <a href="#tnm-topics">专题企划</a>
+      <a href="#tnm-creators">创作者</a>
+      <a href="#tnm-wall">影像墙</a>
+      <a href="#tnm-news">企业动态</a>
+      <a href="#tnm-faq">帮助</a>
+      <a href="#tnm-contact">联系</a>
+    </nav>
+  </header>
+</div>
+
+<main id="tnm-top">
+
+<!-- ============ 首屏 ============ -->
+<section class="tnm-hero">
+  <div class="tnm-wrap tnm-hero-grid">
+    <div>
+      <div class="tnm-hero-badge"><i></i>蒂娜muchitina 官方网站 · 品牌门户</div>
+      <h1>蒂娜muchitina</h1>
+      <p class="tnm-hero-tagline">把日常拍成值得反复回看的影像</p>
+      <p class="tnm-hero-intro">
+        作为持续运营的原创视频品牌，蒂娜muchitina 以真实的城市记录、人物访谈与生活美学为核心，
+        搭建面向创作者与观众的高品质内容生态。我们相信镜头不是炫耀的工具，
+        而是理解世界的耐心方式——每一段素材都值得被认真对待，每一次剪辑都藏着讲述者的诚意。
+      </p>
+      <div class="tnm-hero-actions">
+        <a class="tnm-btn-primary" href="#tnm-focus">
+          走进焦点内容
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <a class="tnm-btn-line" href="#tnm-about">品牌故事</a>
+      </div>
+      <div class="tnm-hero-stats">
+        <div class="tnm-stat"><b id="tnmStatWorks">1260+</b><span>原创影像作品</span></div>
+        <div class="tnm-stat"><b>48</b><span>签约创作者</span></div>
+        <div class="tnm-stat"><b>7.8万</b><span>社区成员</span></div>
+      </div>
+    </div>
+    <div class="tnm-hero-visual">
+      <div class="tnm-hero-cover">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 440'%3E%3Cdefs%3E%3ClinearGradient id='sky' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23262444'/%3E%3Cstop offset='.55' stop-color='%233c3568'/%3E%3Cstop offset='1' stop-color='%23c96a4e'/%3E%3C/linearGradient%3E%3ClinearGradient id='road' x1='0' y1='0' x2='1' y2='0'%3E%3Cstop offset='0' stop-color='%23ffb86b'/%3E%3Cstop offset='1' stop-color='%23ff8c5a'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='640' height='440' fill='url(%23sky)'/%3E%3Ccircle cx='470' cy='118' r='46' fill='%23ffd79a' opacity='.92'/%3E%3Cg fill='%231b1930'%3E%3Crect x='40' y='180' width='58' height='180' rx='4'/%3E%3Crect x='108' y='138' width='74' height='222' rx='4'/%3E%3Crect x='194' y='200' width='52' height='160' rx='4'/%3E%3Crect x='258' y='158' width='88' height='202' rx='4'/%3E%3Crect x='358' y='212' width='46' height='148' rx='4'/%3E%3Crect x='418' y='170' width='62' height='190' rx='4'/%3E%3Crect x='492' y='226' width='42' height='134' rx='4'/%3E%3Crect x='548' y='192' width='58' height='168' rx='4'/%3E%3C/g%3E%3Cg fill='%23ffc46b' opacity='.85'%3E%3Crect x='120' y='158' width='10' height='12'/%3E%3Crect x='140' y='158' width='10' height='12'/%3E%3Crect x='120' y='186' width='10' height='12'/%3E%3Crect x='160' y='186' width='10' height='12'/%3E%3Crect x='272' y='180' width='10' height='12'/%3E%3Crect x='296' y='180' width='10' height='12'/%3E%3Crect x='320' y='208' width='10' height='12'/%3E%3Crect x='272' y='236' width='10' height='12'/%3E%3Crect x='430' y='190' width='10' height='12'/%3E%3Crect x='454' y='216' width='10' height='12'/%3E%3Crect x='560' y='214' width='10' height='12'/%3E%3Crect x='584' y='242' width='10' height='12'/%3E%3C/g%3E%3Cpath d='M0 372 L640 372 L640 440 L0 440 Z' fill='url(%23road)' opacity='.9'/%3E%3Cg stroke='%23fff5e4' stroke-width='6' stroke-dasharray='54 40' opacity='.85'%3E%3Cpath d='M0 404 L640 404'/%3E%3C/g%3E%3Cg fill='%23231f38'%3E%3Cpath d='M300 380 l18 -34 l18 34 z'/%3E%3Crect x='312' y='376' width='12' height='26' rx='3'/%3E%3C/g%3E%3C/svg%3E" alt="蒂娜muchitina 品牌主视觉：暮色城市天际线与延伸的道路">
+      </div>
+      <div class="tnm-hero-float tnm-float-a">
+        <div class="tnm-float-avatar">新</div>
+        <div><strong>本周上新 18 条</strong><small>官方精选 · 持续更新</small></div>
+      </div>
+      <div class="tnm-hero-float tnm-float-b">
+        <div class="tnm-float-avatar">投</div>
+        <div><strong>冬季企划报名中</strong><small>主题：街角的三分钟</small></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 关键词解析长文 ============ -->
+<section class="tnm-section tnm-about" id="tnm-about">
+  <div class="tnm-wrap tnm-about-grid">
+    <div class="tnm-about-side">
+      <div class="tnm-eyebrow">Brand Story</div>
+      <h2 class="tnm-h2">关于蒂娜muchitina：一个以真实为底色的原创影像品牌</h2>
+      <p>我们不追逐流量的短促喧哗，更在意影像在时间里的留存度。从设备到剪辑，从选题到发布，每一步都由品牌团队与创作者共同打磨。</p>
+      <div class="tnm-about-quote">
+        「先成为一个耐心的观察者，再成为一个诚实的讲述者。」<br>—— 蒂娜muchitina 创作手记
+      </div>
+    </div>
+    <div class="tnm-about-body">
+      <h3>品牌定位：把生活现场转化为可分享的影像资产</h3>
+      <p>
+        <strong>蒂娜muchitina</strong> 是一个以城市生活、人物故事与生活美学为核心的原创视频品牌。作为品牌官方网站，
+        我们并不把自己定义为单纯的发布渠道，而更愿意成为一座连接创作者与观众的中转站：创作者在这里完成从灵感到成片的完整流程，
+        观众在这里获得不被打扰的观看体验。品牌自创立以来持续深耕垂直领域，围绕「日常记录」「经验分享」「人物访谈」「城市探索」
+        与「创作幕后」五个方向稳定产出精品内容，形成了辨识度清晰的内容调性与口碑积累。
+      </p>
+      <p>
+        在蒂娜muchitina 的内容体系中，<span class="tnm-inline-tag">真实</span> 是第一原则。我们不鼓励为镜头而表演的日常，
+        也不主张把复杂的现实压缩成三十秒的情绪快消品。相反，品牌更看重素材本身的质感与讲述者的诚实度：一段地铁通勤的观察、
+        一次与街边修表师傅的四十分钟对谈、一间只在清晨营业的面包房，这些看似平常的切片，恰恰是构成城市记忆的骨血。
+        正因如此，品牌的每一支作品都保留完整的声音层次与画面呼吸，让内容在快节奏的传播环境里依旧值得慢看。
+      </p>
+      <h3>内容生态：创作者、观众与品牌的三方协作</h3>
+      <p>
+        蒂娜muchitina 相信内容生态的稳定性来自三方协作。品牌方负责制定选题标准、提供制作支持与版权保障；
+        签约创作者负责一手的观察与表达；社区成员则通过评论、投票、投稿与共创企划持续参与。我们设置了公开的选题会纪要、
+        透明的分成规则与季度性的创作者恳谈会，让每一位参与者都能清楚知道内容为何被推荐、资源为何这样分配。
+        这种机制让品牌在保持出品一致性的同时，也保留了足够的多元与包容，不同的拍摄风格、不同的叙事节奏都能在平台找到位置。
+      </p>
+      <p>
+        在技术层面，品牌自建了素材归档与协同审片流程，所有成片均以高清规格完成交付，并以标准化元数据标注拍摄地点、
+        时间与内容标签，方便后续检索与二次创作。我们同样重视创作者成长：每季度开设剪辑工作坊、镜头语言课与声音设计专题课，
+        邀请行业内的导演、摄影师与声音设计师做内部交流，把经验沉淀为可复用的方法而非个人化的玄学。
+      </p>
+      <h3>品牌主张与长期价值</h3>
+      <p>
+        对蒂娜muchitina 而言，视频不只是信息载体，更是一种社会记录方式。品牌每年会投入固定资源完成公益性质的纪录项目，
+        为城市中被忽略的职业与群体留下影像档案；同时通过公开课与创作挑战赛，鼓励更多普通用户拿起设备，
+        完成属于自己的第一支短片。我们相信，一个值得信赖的品牌，应当既能提供稳定的品质预期，也能为行业留下一点可被继承的方法与温度。
+      </p>
+      <ul>
+        <li><strong>原创与正版</strong>：所有内容均完成版权登记，转载需授权，保障创作者权益。</li>
+        <li><strong>高清与专业</strong>：统一高清交付标准，从拍摄到混音全流程品控。</li>
+        <li><strong>社区与陪伴</strong>：以长期主义运营社区，组织线下观影与创作交流。</li>
+        <li><strong>创新与成长</strong>：持续引入新工具与新叙事方式，与创作者共同进化。</li>
+      </ul>
+      <p>
+        未来，蒂娜muchitina 将继续围绕「影像·人·城市」三条主线拓展内容版图，完善创作者扶持计划，
+        并把官方发布渠道建设成更开放、更透明的内容社区。我们期待与更多同好一起，把那些容易被忽略的日常，
+        拍成经得起反复回看的作品。这既是我们作为企业的责任，也是品牌最朴素的愿望。
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 焦点视频 ============ -->
+<section class="tnm-section" id="tnm-focus">
+  <div class="tnm-wrap">
+    <div class="tnm-section-head">
+      <div class="tnm-eyebrow">Focus Selection</div>
+      <h2 class="tnm-h2">焦点内容 · 本期官方精编</h2>
+      <p class="tnm-section-desc">由品牌编辑部从近两周新上线的原创作品中挑选，兼顾叙事完成度与影像质感。每一支都经过审片会讨论与二次调色。</p>
+    </div>
+    <div class="tnm-focus-grid">
+      <article class="tnm-focus-main">
+        <div class="tnm-cover">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 405'%3E%3Cdefs%3E%3ClinearGradient id='m1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%231f2b3a'/%3E%3Cstop offset='1' stop-color='%23485f7a'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='720' height='405' fill='url(%23m1)'/%3E%3Cg opacity='.35' fill='%23a7c4e8'%3E%3Crect x='60' y='250' width='120' height='155'/%3E%3Crect x='200' y='200' width='90' height='205'/%3E%3Crect x='310' y='270' width='150' height='135'/%3E%3Crect x='480' y='220' width='100' height='185'/%3E%3Crect x='600' y='255' width='80' height='150'/%3E%3C/g%3E%3Cg stroke='%23ffd79a' stroke-width='3' opacity='.8' fill='none'%3E%3Cpath d='M40 120 h180 v0'/%3E%3Ccircle cx='340' cy='110' r='38'/%3E%3Cpath d='M540 100 q60 40 120 0'/%3E%3C/g%3E%3Cg fill='%23ffb86b'%3E%3Ccircle cx='120' cy='330' r='9'/%3E%3Ccircle cx='360' cy='300' r='7'/%3E%3Ccircle cx='560' cy='340' r='9'/%3E%3C/g%3E%3C/svg%3E" alt="焦点视频封面：雨夜城市街道与暖色路灯光斑">
+          <span class="tnm-cover-badge">本期主推</span>
+          <span class="tnm-cover-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+        </div>
+        <div class="tnm-focus-body">
+          <h3>《雨停之后的三小时》：一条城市街区的夜与晨</h3>
+          <p>跟拍一位凌晨四点开始工作的环卫班长，镜头从雨夜沿街推进，到清晨早点摊升起第一笼热气，完成一次关于城市运转节律的安静叙事。</p>
+          <div class="tnm-focus-meta">
+            <span class="tnm-tag">城市探索</span>
+            <span>作者：林岸映画</span>
+            <span>时长 14:26</span>
+            <span>更新于 2026-11-16</span>
+          </div>
+        </div>
+      </article>
+      <div class="tnm-focus-side">
+        <article class="tnm-focus-small">
+          <div class="tnm-cover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 200'%3E%3Crect width='320' height='200' fill='%23f3e7d3'/%3E%3Cg fill='%23c98a4b'%3E%3Crect x='30' y='120' width='70' height='80' rx='4'/%3E%3Crect x='120' y='96' width='54' height='104' rx='4'/%3E%3Crect x='196' y='132' width='90' height='68' rx='4'/%3E%3C/g%3E%3Ccircle cx='250' cy='56' r='30' fill='%23e8b56d'/%3E%3Cg stroke='%238a5a2b' stroke-width='2' opacity='.5'%3E%3Cpath d='M30 150h190M30 170h256'/%3E%3C/g%3E%3C/svg%3E" alt="视频封面：面包房清晨出炉的手工烘焙">
+          </div>
+          <div>
+            <h4>《清晨四点的那炉面包》</h4>
+            <span>美食烹饪 · 12:08 · 立早厨房</span>
+          </div>
+        </article>
+        <article class="tnm-focus-small">
+          <div class="tnm-cover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 200'%3E%3Crect width='320' height='200' fill='%232b2a45'/%3E%3Cg fill='none' stroke='%237b6cff' stroke-width='2' opacity='.75'%3E%3Cpath d='M40 150 L110 80 L170 130 L250 50'/%3E%3Ccircle cx='110' cy='80' r='5' fill='%23ffb86b'/%3E%3Ccircle cx='250' cy='50' r='5' fill='%23ffb86b'/%3E%3C/g%3E%3Cg fill='%23ff8c5a' opacity='.8'%3E%3Crect x='40' y='168' width='240' height='4' rx='2'/%3E%3C/g%3E%3C/svg%3E" alt="视频封面：数据曲线隐喻的行业观察画面">
+          </div>
+          <div>
+            <h4>《短视频十年：叙事如何变短又变深》</h4>
+            <span>行业观察 · 18:40 · 周牧言</span>
+          </div>
+        </article>
+        <article class="tnm-focus-small">
+          <div class="tnm-cover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 200'%3E%3Crect width='320' height='200' fill='%23dce9df'/%3E%3Cg fill='%236f9e7b'%3E%3Cpath d='M0 150 q80 -50 160 0 t160 0 v50 h-320 z'/%3E%3C/g%3E%3Cg fill='%233f6250'%3E%3Crect x='60' y='86' width='10' height='60' rx='4'/%3E%3Crect x='150' y='66' width='10' height='80' rx='4'/%3E%3Crect x='236' y='96' width='10' height='50' rx='4'/%3E%3C/g%3E%3Cg fill='%23a8c9a8'%3E%3Ccircle cx='65' cy='72' r='26'/%3E%3Ccircle cx='155' cy='50' r='30'/%3E%3Ccircle cx='241' cy='82' r='22'/%3E%3C/g%3E%3C/svg%3E" alt="视频封面：郊野绿道与骑行路线示意">
+          </div>
+          <div>
+            <h4>《沿河骑行 42 公里：一次没有目的地的出发》</h4>
+            <span>户外活动 · 21:15 · 苏野</span>
+          </div>
+        </article>
+        <article class="tnm-focus-small">
+          <div class="tnm-cover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 200'%3E%3Crect width='320' height='200' fill='%23242238'/%3E%3Cg fill='%23ffb86b' opacity='.9'%3E%3Crect x='70' y='70' width='180' height='70' rx='8'/%3E%3C/g%3E%3Cg fill='%23242238'%3E%3Crect x='90' y='86' width='40' height='38' rx='4'/%3E%3Crect x='142' y='86' width='40' height='38' rx='4'/%3E%3Crect x='194' y='86' width='36' height='38' rx='4'/%3E%3C/g%3E%3Cg fill='%237b6cff'%3E%3Ccircle cx='110' cy='105' r='5'/%3E%3Ccircle cx='162' cy='105' r='5'/%3E%3Ccircle cx='212' cy='105' r='5'/%3E%3C/g%3E%3C/svg%3E" alt="视频封面：剪辑软件时间线特写示意图">
+          </div>
+          <div>
+            <h4>《从 6 小时素材到 9 分钟成片》</h4>
+            <span>教程干货 · 09:32 · 剪辑师阿野</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 视频流 ============ -->
+<section class="tnm-section tnm-video-sec" id="tnm-videos">
+  <div class="tnm-wrap">
+    <div class="tnm-section-head">
+      <div class="tnm-eyebrow">Community Feed</div>
+      <h2 class="tnm-h2">社区精选 · 正在被反复播放的作品</h2>
+      <p class="tnm-section-desc">来自社区成员与签约创作者的原创内容。按标签筛选，找到与你此刻心情相符的那一支。</p>
+    </div>
+    <div class="tnm-filter-bar" id="tnmFilterBar" role="group" aria-label="内容标签筛选">
+      <button class="tnm-filter-btn is-active" data-filter="all" type="button">全部</button>
+      <button class="tnm-filter-btn" data-filter="日常记录" type="button">日常记录</button>
+      <button class="tnm-filter-btn" data-filter="人物访谈" type="button">人物访谈</button>
+      <button class="tnm-filter-btn" data-filter="教程干货" type="button">教程干货</button>
+      <button class="tnm-filter-btn" data-filter="城市探索" type="button">城市探索</button>
+      <button class="tnm-filter-btn" data-filter="手作DIY" type="button">手作DIY</button>
+      <button class="tnm-filter-btn" data-filter="治愈影像" type="button">治愈影像</button>
+    </div>
+    <div class="tnm-video-grid" id="tnmVideoGrid">
+
+      <article class="tnm-video-card" data-tag="日常记录">
+        <div class="tnm-cover">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 225'%3E%3Crect width='400' height='225' fill='%23f0e6da'/%3E%3Cg fill='%23b98a5c'%3E%3Crect x='40' y='120' width='90' height='105' rx='6'/%3E%3Crect x='160' y='90' width='70' height='135' rx='6'/%3E%3Crect x='256' y='140' width='110' height='85' rx='6'/%3E%3C/g%3E%3Cg fill='%23fff' opacity='.7'%3E%3Ccircle cx='300' cy='60' r='32'/%3E%3C/g%3E%3Cg stroke='%23865f38' stroke-width='2' opacity='.4'%3E%3Cpath d='M40 160h330M40 190h330'/%3E%3C/g%3E%3C/svg%3E" alt="视频封面：老式厨房里的一日三餐记录">
+          <span class="tnm-cover-badge">日常记录</span>
+          <span class="tnm-cover-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+        </div>
+        <div class="tnm-video-card-body">
+          <h3>《在老房子里住满一百天》第三集：厨房的秩序</h3>
+          <p>从一把用了十二年的菜刀说起，讲清楚一个人如何在有限的空间里建立属于自己的生活秩序。</p>
+          <div class="tnm-video-card-foot">
+            <div class="tnm-mini-avatar" style="background:linear-gradient(135deg,#c98a4b,#e8b56d)">林</div>
+            <span class="tnm-author">林岸映画</span>
+            <div class="tnm-card-actions">
+              <button class="tnm-ico-btn tnm-like-btn" type="button" aria-label="点赞"><svg viewBox="0 0 24 24"><path d="M12 20s-7-4.6-7-9.4A4 4 0 0 1 12 7a4 4 0 0 1 7 3.6C19 15.4 12 20 12 20z"/></svg><span>326</span></button>
+              <button class="tnm-ico-btn tnm-save-btn" type="button" aria-label="收藏"><svg viewBox="0 0 24 24"><path d="M6 4h12v17l-6-4-6 4z"/></svg></button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="tnm-video-card" data-tag="人物访谈">
+        <div class="tnm-cover">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 225'%3E%3Crect width='400' height='225' fill='%232a2940'/%3E%3Ccircle cx='200' cy='96' r='44' fill='%235d5a86'/%3E%3Cpath d='M120 225 q80 -80 160 0 z' fill='%235d5a86'/%3E%3Cg fill='%23ffb86b'%3E%3Ccircle cx='330' cy='50' r='7'/%3E%3Ccircle cx='64' cy='66' r='5'/%3E%3C/g%3E%3Cg stroke='%237b6cff' stroke-width='2' opacity='.6' fill='none'%3E%3Crect x='24' y='24' width='352' height='177' rx='14'/%3E%3C/g%3E%3C/svg%3E" alt="视频封面：人物访谈的暗色演播空间">
+          <span class="tnm-cover-badge">人物访谈</span>
+          <span class="tnm-cover-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+        </div>
+        <div class="tnm-video-card-body">
+          <h3>《修表四十年》：和一位老师傅聊慢与准</h3>
+          <p>他的工作台只有一平方米，却装得下四十年。关于手艺、关于耐心，也关于一条街的变迁。</p>
+          <div class="tnm-video-card-foot">
+            <div class="tnm-mini-avatar" style="background:linear-gradient(135deg,#7b6cff,#4a3f7a)">周</div>
+            <span class="tnm-author">周牧言</span>
+            <div class="tnm-card-actions">
+              <button class="tnm-ico-btn tnm-like-btn" type="button" aria-label="点赞"><svg viewBox="0 0 24 24"><path d="M12 20s-7-4.6-7-9.4A4 4 0 0 1 12 7a4 4 0 0 1 7 3.6C19 15.4 12 20 12 20z"/></svg><span>1.2k</span></button>
+              <button class="tnm-ico-btn tnm-save-btn" type="button" aria-label="收藏"><svg viewBox="0 0 24 24"><path d="M6 4h12v17l-6-4-6 4z"/></svg></button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="tnm-video-card" data-tag="教程干货">
+        <div class="tnm-cover">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 225'%3E%3Crect width='400' height='225' fill='%23eef1f7'/%3E%3Cg fill='%23c3cfdf'%3E%3Crect x='30' y='40' width='340' height='30' rx='6'/%3E%3C/g%3E%3Cg fill='%237b6cff'%3E%3Crect x='30' y='86' width='150' height='16' rx='6'/%3E%3Crect x='196' y='86' width='90' height='16' rx='6'/%3E%3C/g%3E%3Cg fill='%23ff8c5a'%3E%3Crect x='30' y='116' width='90' height='16' rx='6'/%3E%3Crect x='136' y='116' width='210' height='16' rx='6'/%3E%3C/g%3E%3Cg fill='%23c3cfdf'%3E%3Crect x='30' y='146' width='250' height='16' rx='6'/%3E%3C/g%3E%3Cg fill='%232a2940'%3E%3Crect x='30' y='176' width='60' height='16' rx='6'/%3E%3C/g%3E%3C/svg%3E" alt="视频封面：时间线剪辑界面示意">
+          <span class="tnm-cover-badge">教程干货</span>
+          <span class="tnm-cover-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+        </div>
+        <div class="tnm-video-card-body">
+          <h3>《三招解决画面节奏拖沓》：剪辑节奏实操课</h3>
+          <p>用同一组素材做三种剪切方案，直观对比观众留存差异，附带可下载的节奏参考表。</p>
+          <div class="tnm-video-card-foot">
+            <div class="tnm-mini-avatar" style="background:linear-gradient(135deg,#3d8f7a,#7bc4a8)">野</div>
+            <span class="tnm-author">剪辑师阿野</span>
+            <div class="tnm-card-actions">
+              <button class="tnm-ico-btn tnm-like-btn" type="button" aria-label="点赞"><svg viewBox="0 0 24 24"><path d="M12 20s-7-4.6-7-9.4A4 4 0 0 1 12 7a4 4 0 0 1 7 3.6C19 15.4 12 20 12 20z"/></svg><span>842</span></button>
+              <button class="tnm-ico-btn tnm-save-btn" type="button" aria-label="收藏"><svg viewBox="0 0 24 24"><path d="M6 4h12v17l-6-4-6 4z"/></svg></button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="tnm-video-card" data-tag="城市探索">
+        <div class="tnm-cover">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 225'%3E%3Crect width='400' height='225' fill='%23223344'/%3E%3Cg fill='%23131f2b'%3E%3Crect x='20' y='120' width='60' height='105'/%3E%3Crect x='92' y='80' width='70' height='145'/%3E%3Crect x='174' y='110' width='52' height='115'/%3E%3Crect x='238' y='60' width='80' height='165'/%3E%3Crect x='330' y='100' width='50' height='125'/%3E%3C/g%3E%3Cg fill='%23ffd79a' opacity='.85'%3E%3Crect x='104' y='96' width='8' height='10'/%3E%3Crect x='122' y='96' width='8' height='10'/%3E%3Crect x='104' y='120' width='8' height='10'/%3E%3Crect x='252' y='78' width='8' height='10'/%3E%3Crect x='274' y='78' width='8' height='10'/%3E%3Crect x='252' y='104' width='8' height='10'/%3E%3Crect x='296' y='104' width='8' height='10'/%3E%3C/g%3E%3Cg fill='%23ff8c5a' opacity='.55'%3E%3Crect x='0' y='196' width='400' height='29'/%3E%3C/g%3E%3C/svg%3E" alt="视频封面：夜色中的老城区楼群与窗灯">
+          <span class="tnm-cover-badge">城市探索</span>
+          <span class="tnm-cover-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+        </div>
+        <div class="tnm-video-card-body">
+          <h3>《老城区拆迁前，我拍了三天》影像存档</h3>
+          <p>记录一条即将消失的小巷：门牌、晾衣绳、公用电话亭，以及原住民最后一次开火做饭的傍晚。</p>
+          <div class="tnm-video-card-foot">
+            <div class="tnm-mini-avatar" style="background:linear-gradient(135deg,#3a6d8c,#6fa8c9)">苏</div>
+            <span class="tnm-author">苏野</span>
+            <div class="tnm-card-actions">
+              <button class="tnm-ico-btn tnm-like-btn" type="button" aria-label="点赞"><svg viewBox="0 0 24 24"><path d="M12 20s-7-4.6-7-9.4A4 4 0 0 1 12 7a4 4 0 0 1 7 3.6C19 15.4 12 20 12 20z"/></svg><span>2.1k</span></button>
+              <button class="tnm-ico-btn tnm-save-btn" type="button" aria-label="收藏"><svg viewBox="0 0 24 24"><path d="M6 4h12v17l-6-4-6 4z"/></svg></button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="tnm-video-card" data-tag="手作DIY">
+        <div class="tnm-cover">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 225'%3E%3Crect width='400' height='225' fill='%23f6eee2'/%3E%3Cg fill='%23b8834f'%3E%3Ccircle cx='120' cy='112' r='56'/%3E%3C/g%3E%3Cg fill='%23f6eee2'%3E%3Ccircle cx='120' cy='112' r='26'/%3E%3C/g%3E%3Cg stroke='%238a5a2b' stroke-width='4' fill='none'%3E%3Cpath d='M210 80 q40 40 0 80'/%3E%3Cpath d='M260 62 q54 54 0 108'/%3E%3C/g%3E%3Cg fill='%23d9a86c'%3E%3Crect x='290' y='150' width='80' height='40' rx='8'/%3E%3C/g%3E%3C/svg%3E" alt="视频封面：陶艺拉坯与手作工具">
+          <span class="tnm-cover-badge">手作DIY</span>
+          <span class="tnm-cover-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+        </div>
+        <div class="tnm-video-card-body">
+          <h3>《第一次拉坯就成功》：陶艺新手的 30 分钟</h3>
+          <p>从泥料配比到修坯收口，把容易翻车的三个节点提前讲清楚，附工具清单与清洗建议。</p>
+          <div class="tnm-video-card-foot">
+            <div class="tnm-mini-avatar" style="background:linear-gradient(135deg,#c98a4b,#e8b56d)">阿</div>
+            <span class="tnm-author">阿禾手作</span>
+            <div class="tnm-card-actions">
+              <button class="tnm-ico-btn tnm-like-btn" type="button" aria-label="点赞"><svg viewBox="0 0 24 24"><path d="M12 20s-7-4.6-7-9.4A4 4 0 0 1 12 7a4 4 0 0 1 7 3.6C19 15.4 12 20 12 20z"/></svg><span>517</span></button>
+              <button class="tnm-ico-btn tnm-save-btn" type="button" aria-label="收藏"><svg viewBox="0 0 24 24"><path d="M6 4h12v17l-6-4-6 4z"/></svg></button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="tnm-video-card" data-tag="治愈影像">
+        <div class="tnm-cover">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 225'%3E%3Cdefs%3E%3ClinearGradient id='g6' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23fbe6ee'/%3E%3Cstop offset='1' stop-color='%23e6d7f5'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='400' height='225' fill='url(%23g6)'/%3E%3Cg fill='%23fff' opacity='.85'%3E%3Ccircle cx='90' cy='70' r='34'/%3E%3Ccircle cx='300' cy='54' r='26'/%3E%3Ccircle cx='220' cy='96' r='20'/%3E%3C/g%3E%3Cg fill='%23c8a7d8' opacity='.7'%3E%3Cpath d='M0 176 q100 -40 200 0 t200 0 v49 h-400 z'/%3E%3C/g%3E%3Cg fill='%23ffb86b' opacity='.8'%3E%3Ccircle cx='330' cy='150' r='9'/%3E%3C/g%3E%3C/svg%3E" alt="视频封面：柔和色调的黄昏云层与手写便笺">
+          <span class="tnm-cover-badge">治愈影像</span>
+          <span class="tnm-cover-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+        </div>
+        <div class="tnm-video-card-body">
+          <h3>《给自己的三十封信》：写给不安的夜晚</h3>
+          <p>把过去三年写给自己的碎碎念拍成影像，配上房间里的自然声，适合在深夜安静地看完。</p>
+          <div class="tnm-video-card-foot">
+            <div class="tnm-mini-avatar" style="background:linear-gradient(135deg,#c8a7d8,#8a7ab8)">弦</div>
+            <span class="tnm-author">弦子笔记</span>
+            <div class="tnm-card-actions">
+              <button class="tnm-ico-btn tnm-like-btn" type="button" aria-label="点赞"><svg viewBox="0 0 24 24"><path d="M12 20s-7-4.6-7-9.4A4 4 0 0 1 12 7a4 4 0 0 1 7 3.6C19 15.4 12 20 12 20z"/></svg><span>1.6k</span></button>
+              <button class="tnm-ico-btn tnm-save-btn" type="button" aria-label="收藏"><svg viewBox="0 0 24 24"><path d="M6 4h12v17l-6-4-6 4z"/></svg></button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="tnm-video-card" data-tag="日常记录">
+        <div class="tnm-cover">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 225'%3E%3Crect width='400' height='225' fill='%23e7eef2'/%3E%3Cg fill='%239bb3c2'%3E%3Crect x='0' y='150' width='400' height='75'/%3E%3C/g%3E%3Cg fill='%23ffffff'%3E%3Crect x='46' y='60' width='130' height='90' rx='8'/%3E%3C/g%3E%3Cg fill='%237b8fa0'%3E%3Crect x='60' y='76' width='100' height='8' rx='4'/%3E%3Crect x='60' y='96' width='78' height='8' rx='4'/%3E%3Crect x='60' y='116' width='90' height='8' rx='4'/%3E%3C/g%3E%3Cg fill='%23ff8c5a'%3E%3Ccircle cx='300' cy='96' r='34'/%3E%3C/g%3E%3Cg fill='%23e7eef2'%3E%3Ccircle cx='300' cy='96' r='14'/%3E%3C/g%3E%3C/svg%3E" alt="视频封面：书桌上的日程便笺与咖啡杯">
+          <span class="tnm-cover-badge">日常记录</span>
+          <span class="tnm-cover-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+        </div>
+        <div class="tnm-video-card-body">
+          <h3>《自由职业第 400 天》：一份坦诚的时间账本</h3>
+          <p>把收入、作息与情绪波动都摊开讲，没有励志话术，只是一份真实到略显笨拙的记录。</p>
+          <div class="tnm-video-card-foot">
+            <div class="tnm-mini-avatar" style="background:linear-gradient(135deg,#7b8fa0,#a9c0cf)">陈</div>
+            <span class="tnm-author">陈在野</span>
+            <div class="tnm-card-actions">
+              <button class="tnm-ico-btn tnm-like-btn" type="button" aria-label="点赞"><svg viewBox="0 0 24 24"><path d="M12 20s-7-4.6-7-9.4A4 4 0 0 1 12 7a4 4 0 0 1 7 3.6C19 15.4 12 20 12 20z"/></svg><span>963</span></button>
+              <button class="tnm-ico-btn tnm-save-btn" type="button" aria-label="收藏"><svg viewBox="0 0 24 24"><path d="M6 4h12v17l-6-4-6 4z"/></svg></button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="tnm-video-card" data-tag="城市探索">
+        <div class="tnm-cover">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 225'%3E%3Crect width='400' height='225' fill='%23f2e7d8'/%3E%3Cg stroke='%23b98a5c' stroke-width='3' fill='none' opacity='.8'%3E%3Cpath d='M0 160 q100 -30 200 0 t200 0'/%3E%3Cpath d='M0 186 q100 -26 200 0 t200 0'/%3E%3C/g%3E%3Cg fill='%23c25d21'%3E%3Crect x='60' y='68' width='70' height='70' rx='6'/%3E%3Crect x='158' y='52' width='70' height='86' rx='6'/%3E%3Crect x='256' y='80' width='70' height='58' rx='6'/%3E%3C/g%3E%3Cg fill='%23fff' opacity='.55'%3E%3Ccircle cx='340' cy='48' r='24'/%3E%3C/g%3E%3C/svg%3E" alt="视频封面：老市场摊位与暖色遮阳棚">
+          <span class="tnm-cover-badge">城市探索</span>
+          <span class="tnm-cover-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+        </div>
+        <div class="tnm-video-card-body">
+          <h3>《逛完这座早市，才算真的认识这条街》</h3>
+          <p>跟着摊主走完一条 400 米的动线，从进货、开摊到收摊，看见城市最鲜活的清晨两小时。</p>
+          <div class="tnm-video-card-foot">
+            <div class="tnm-mini-avatar" style="background:linear-gradient(135deg,#c25d21,#f0a96b)">小</div>
+            <span class="tnm-author">小城慢走</span>
+            <div class="tnm-card-actions">
+              <button class="tnm-ico-btn tnm-like-btn" type="button" aria-label="点赞"><svg viewBox="0 0 24 24"><path d="M12 20s-7-4.6-7-9.4A4 4 0 0 1 12 7a4 4 0 0 1 7 3.6C19 15.4 12 20 12 20z"/></svg><span>734</span></button>
+              <button class="tnm-ico-btn tnm-save-btn" type="button" aria-label="收藏"><svg viewBox="0 0 24 24"><path d="M6 4h12v17l-6-4-6 4z"/></svg></button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="tnm-video-card" data-tag="人物访谈">
+        <div class="tnm-cover">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 225'%3E%3Crect width='400' height='225' fill='%23251f33'/%3E%3Cg fill='%23a98ee0' opacity='.8'%3E%3Crect x='50' y='60' width='120' height='120' rx='14'/%3E%3C/g%3E%3Cg fill='%23ffb86b' opacity='.8'%3E%3Crect x='200' y='90' width='150' height='60' rx='10'/%3E%3C/g%3E%3Cg fill='%23251f33'%3E%3Ccircle cx='110' cy='120' r='26'/%3E%3C/g%3E%3Cg fill='%23fff' opacity='.9'%3E%3Ccircle cx='110' cy='112' r='10'/%3E%3C/g%3E%3C/svg%3E" alt="视频封面：录音室里的对谈场景">
+          <span class="tnm-cover-badge">人物访谈</span>
+          <span class="tnm-cover-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+        </div>
+        <div class="tnm-video-card-body">
+          <h3>《配音演员的一天》：在麦克风前切换七种人生</h3>
+          <p>走进一间小型录音棚，听一位入行九年的配音演员讲声音的表演，以及被误解最多的职业日常。</p>
+          <div class="tnm-video-card-foot">
+            <div class="tnm-mini-avatar" style="background:linear-gradient(135deg,#a98ee0,#6a5aa8)">周</div>
+            <span class="tnm-author">周牧言</span>
+            <div class="tnm-card-actions">
+              <button class="tnm-ico-btn tnm-like-btn" type="button" aria-label="点赞"><svg viewBox="0 0 24 24"><path d="M12 20s-7-4.6-7-9.4A4 4 0 0 1 12 7a4 4 0 0 1 7 3.6C19 15.4 12 20 12 20z"/></svg><span>1.1k</span></button>
+              <button class="tnm-ico-btn tnm-save-btn" type="button" aria-label="收藏"><svg viewBox="0 0 24 24"><path d="M6 4h12v17l-6-4-6 4z"/></svg></button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <div class="tnm-search-empty" id="tnmSearchEmpty" style="display:none;">没有找到匹配的作品，换个关键词试试，或先浏览「全部」内容。</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 专题企划 ============ -->
+<section class="tnm-section" id="tnm-topics">
+  <div class="tnm-wrap">
+    <div class="tnm-section-head">
+      <div class="tnm-eyebrow">Special Projects</div>
+      <h2 class="tnm-h2">专题企划 · 官方持续更新中</h2>
+      <p class="tnm-section-desc">专题是品牌对某一议题的长期投入。每个企划都有明确的问题意识与更新节奏，欢迎同好投稿参与共创。</p>
+    </div>
+    <div class="tnm-topic-grid">
+      <article class="tnm-topic-card">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%232a3a4d'/%3E%3Cg fill='%231a2634'%3E%3Crect x='20' y='180' width='70' height='120'/%3E%3Crect x='110' y='140' width='90' height='160'/%3E%3Crect x='220' y='170' width='60' height='130'/%3E%3Crect x='300' y='120' width='80' height='180'/%3E%3C/g%3E%3Cg fill='%23ffcb7a' opacity='.9'%3E%3Crect x='126' y='158' width='10' height='12'/%3E%3Crect x='152' y='158' width='10' height='12'/%3E%3Crect x='126' y='186' width='10' height='12'/%3E%3Crect x='316' y='140' width='10' height='12'/%3E%3Crect x='342' y='140' width='10' height='12'/%3E%3Crect x='316' y='168' width='10' height='12'/%3E%3C/g%3E%3Ccircle cx='340' cy='62' r='26' fill='%23f6e6b8'/%3E%3C/svg%3E" alt="专题封面：城市微光第二季 街角的三分钟">
+        <span class="tnm-topic-status">更新至第 6 期</span>
+        <h3>城市微光 · 第二季</h3>
+        <p>以「街角的三分钟」为题，征集城市里被忽略的微小场景，已完成 6 期展映。</p>
+      </article>
+      <article class="tnm-topic-card">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%23f2ece0'/%3E%3Cg fill='%23b07a4a'%3E%3Ccircle cx='120' cy='140' r='70'/%3E%3C/g%3E%3Cg fill='%23f2ece0'%3E%3Ccircle cx='120' cy='140' r='34'/%3E%3C/g%3E%3Cg stroke='%23855632' stroke-width='6' fill='none' stroke-linecap='round'%3E%3Cpath d='M220 100 h140 M220 140 h110 M220 180 h150 M220 220 h90'/%3E%3C/g%3E%3C/svg%3E" alt="专题封面：手作人的工作台与工具">
+        <span class="tnm-topic-status">长期企划</span>
+        <h3>手作人的工作台</h3>
+        <p>走进二十八位手作人的工作空间，谈材料、谈失败，也谈一件东西被使用时的意义。</p>
+      </article>
+      <article class="tnm-topic-card">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%2326203a'/%3E%3Cg fill='none' stroke='%237b6cff' stroke-width='3' opacity='.8'%3E%3Ccircle cx='200' cy='150' r='90'/%3E%3Ccircle cx='200' cy='150' r='60'/%3E%3Ccircle cx='200' cy='150' r='30'/%3E%3C/g%3E%3Cg fill='%23ffb86b'%3E%3Ccircle cx='200' cy='60' r='8'/%3E%3Ccircle cx='290' cy='150' r='8'/%3E%3Ccircle cx='110' cy='150' r='8'/%3E%3C/g%3E%3C/svg%3E" alt="专题封面：青年创作者访谈计划视觉">
+        <span class="tnm-topic-status">12 月上线</span>
+        <h3>第一次拿起摄像机</h3>
+        <p>面向 00 后创作者的对谈计划，聊起步时的笨拙、被拒绝的经历与坚持下来的理由。</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 创作者矩阵 ============ -->
+<section class="tnm-section tnm-creator-sec" id="tnm-creators">
+  <div class="tnm-wrap">
+    <div class="tnm-section-head">
+      <div class="tnm-eyebrow">Creators</div>
+      <h2 class="tnm-h2">创作者矩阵 · 品牌签约与社区活跃作者</h2>
+      <p class="tnm-section-desc">点击卡片可查看创作者简介。品牌为签约作者提供选题支持、设备共享与版权代理，帮助其稳定产出。</p>
+    </div>
+    <div class="tnm-creator-grid">
+      <article class="tnm-creator-card" data-creator="林岸映画">
+        <div class="tnm-creator-avatar" style="background:linear-gradient(135deg,#c98a4b,#e8b56d)">林</div>
+        <h3>林岸映画</h3>
+        <span class="tnm-creator-field">日常记录</span>
+        <p>擅长用固定机位与长镜头记录居住空间里的微小变化，作品气质安静克制。</p>
+        <div class="tnm-creator-nums">
+          <div><b>86</b>作品</div>
+          <div><b>2.4万</b>关注</div>
+        </div>
+      </article>
+      <article class="tnm-creator-card" data-creator="周牧言">
+        <div class="tnm-creator-avatar" style="background:linear-gradient(135deg,#7b6cff,#4a3f7a)">周</div>
+        <h3>周牧言</h3>
+        <span class="tnm-creator-field">人物访谈</span>
+        <p>前杂志记者，转型影像创作。采访习惯是先沉默十分钟，再开始提问。</p>
+        <div class="tnm-creator-nums">
+          <div><b>54</b>作品</div>
+          <div><b>3.7万</b>关注</div>
+        </div>
+      </article>
+      <article class="tnm-creator-card" data-creator="剪辑师阿野">
+        <div class="tnm-creator-avatar" style="background:linear-gradient(135deg,#3d8f7a,#7bc4a8)">野</div>
+        <h3>剪辑师阿野</h3>
+        <span class="tnm-creator-field">教程干货</span>
+        <p>把剪辑拆成可练习的步骤，课程强调对节奏与情绪的感知，而非单纯堆叠技巧。</p>
+        <div class="tnm-creator-nums">
+          <div><b>112</b>作品</div>
+          <div><b>5.1万</b>关注</div>
+        </div>
+      </article>
+      <article class="tnm-creator-card" data-creator="苏野">
+        <div class="tnm-creator-avatar" style="background:linear-gradient(135deg,#3a6d8c,#6fa8c9)">苏</div>
+        <h3>苏野</h3>
+        <span class="tnm-creator-field">城市探索</span>
+        <p>骑行与步行爱好者，镜头常出现在城市的边角地带，为即将消失的场景留下档案。</p>
+        <div class="tnm-creator-nums">
+          <div><b>71</b>作品</div>
+          <div><b>2.9万</b>关注</div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 影像墙 ============ -->
+<section class="tnm-section" id="tnm-wall">
+  <div class="tnm-wrap">
+    <div class="tnm-section-head">
+      <div class="tnm-eyebrow">Image Wall</div>
+      <h2 class="tnm-h2">用户作品墙 · 社区影像切片</h2>
+      <p class="tnm-section-desc">来自社区投稿的静帧与短片截帧。尺寸不一的画面，构成品牌内容生态的日常纹理。</p>
+    </div>
+    <div class="tnm-wall-grid">
+      <div class="tnm-wall-item tnm-wall-big">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 480'%3E%3Cdefs%3E%3ClinearGradient id='w1' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23242a4a'/%3E%3Cstop offset='1' stop-color='%23705f9e'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='800' height='480' fill='url(%23w1)'/%3E%3Ccircle cx='600' cy='120' r='58' fill='%23f6e6b8' opacity='.9'/%3E%3Cg fill='%23181d33'%3E%3Cpath d='M0 380 L120 250 L240 340 L360 210 L480 330 L600 240 L800 380 L800 480 L0 480 Z'/%3E%3C/g%3E%3Cg fill='%23ffb86b' opacity='.7'%3E%3Crect x='140' y='386' width='60' height='8' rx='4'/%3E%3Crect x='380' y='392' width='90' height='8' rx='4'/%3E%3Crect x='560' y='388' width='70' height='8' rx='4'/%3E%3C/g%3E%3C/svg%3E" alt="作品墙大图：黄昏山脊与远处村落灯带">
+        <span>《山脊线的最后一班车》· 苏野</span>
+      </div>
+      <div class="tnm-wall-item tnm-wall-med">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 200'%3E%3Crect width='400' height='200' fill='%23f3e3d0'/%3E%3Cg fill='%23b37a45'%3E%3Crect x='40' y='90' width='80' height='110' rx='6'/%3E%3Crect x='140' y='60' width='60' height='140' rx='6'/%3E%3Crect x='220' y='110' width='140' height='90' rx='6'/%3E%3C/g%3E%3Cg fill='%23fff' opacity='.6'%3E%3Ccircle cx='330' cy='50' r='24'/%3E%3C/g%3E%3C/svg%3E" alt="作品墙中图：清晨面包店门前的排队身影">
+        <span>《七点的面包香》· 立早厨房</span>
+      </div>
+      <div class="tnm-wall-item tnm-wall-tall">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%232a2e42'/%3E%3Cg fill='%231b1f30'%3E%3Crect x='30' y='120' width='60' height='280'/%3E%3Crect x='110' y='60' width='80' height='340'/%3E%3Crect x='210' y='150' width='60' height='250'/%3E%3C/g%3E%3Cg fill='%23ffd79a' opacity='.85'%3E%3Crect x='124' y='86' width='8' height='10'/%3E%3Crect x='146' y='86' width='8' height='10'/%3E%3Crect x='124' y='116' width='8' height='10'/%3E%3Crect x='168' y='116' width='8' height='10'/%3E%3Crect x='40' y='150' width='8' height='10'/%3E%3Crect x='222' y='180' width='8' height='10'/%3E%3C/g%3E%3Cg fill='%23ff8c5a' opacity='.5'%3E%3Crect x='0' y='350' width='300' height='50'/%3E%3C/g%3E%3C/svg%3E" alt="作品墙竖图：夜色高层建筑与零星灯光">
+        <span>《加班的第十九层》· 陈在野</span>
+      </div>
+      <div class="tnm-wall-item">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 200'%3E%3Crect width='300' height='200' fill='%23e6ece3'/%3E%3Cg fill='%238fb08f'%3E%3Cpath d='M0 140 q75 -40 150 0 t150 0 v60 h-300 z'/%3E%3C/g%3E%3Cg fill='%235d7d62'%3E%3Crect x='70' y='70' width='9' height='60' rx='4'/%3E%3Crect x='150' y='54' width='9' height='76' rx='4'/%3E%3Crect x='226' y='80' width='9' height='50' rx='4'/%3E%3C/g%3E%3Cg fill='%23b6d1b0'%3E%3Ccircle cx='74' cy='54' r='24'/%3E%3Ccircle cx='154' cy='38' r='27'/%3E%3Ccircle cx='230' cy='64' r='21'/%3E%3C/g%3E%3C/svg%3E" alt="作品墙小图：郊野步道旁的树影">
+        <span>《步道 03》· 阿禾</span>
+      </div>
+      <div class="tnm-wall-item">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 200'%3E%3Crect width='300' height='200' fill='%23f5e4ea'/%3E%3Cg fill='%23d5a7bd'%3E%3Ccircle cx='110' cy='96' r='48'/%3E%3C/g%3E%3Cg fill='%23f5e4ea'%3E%3Ccircle cx='110' cy='96' r='22'/%3E%3C/g%3E%3Cg stroke='%23a87b96' stroke-width='4' fill='none' stroke-linecap='round'%3E%3Cpath d='M190 70 q40 44 0 88'/%3E%3Cpath d='M228 56 q54 56 0 112'/%3E%3C/g%3E%3C/svg%3E" alt="作品墙小图：柔和色调的手作陶器">
+        <span>《第一只杯子》· 阿禾手作</span>
+      </div>
+      <div class="tnm-wall-item tnm-wall-med">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 200'%3E%3Crect width='400' height='200' fill='%23282138'/%3E%3Cg fill='none' stroke='%23ffb86b' stroke-width='3' opacity='.85'%3E%3Cpath d='M30 160 q40 -70 90 -20 t100 -60 t130 30'/%3E%3C/g%3E%3Cg fill='%237b6cff'%3E%3Ccircle cx='120' cy='140' r='8'/%3E%3Ccircle cx='220' cy='80' r='8'/%3E%3Ccircle cx='350' cy='110' r='8'/%3E%3C/g%3E%3Cg fill='%23fff' opacity='.7'%3E%3Crect x='30' y='30' width='90' height='8' rx='4'/%3E%3C/g%3E%3C/svg%3E" alt="作品墙中图：夜间访谈录音的声波示意">
+        <span>《声音的形状》· 周牧言</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 用户评价 ============ -->
+<section class="tnm-section tnm-review-sec">
+  <div class="tnm-wrap">
+    <div class="tnm-section-head">
+      <div class="tnm-eyebrow">Voices</div>
+      <h2 class="tnm-h2">社区声音 · 来自观众的反馈</h2>
+      <p class="tnm-section-desc">这些评价来自站内评论区与线下观影活动的反馈表，我们保留了原话的语气。</p>
+    </div>
+    <div class="tnm-review-grid">
+      <article class="tnm-review-card">
+        <div class="tnm-review-top">
+          <div class="tnm-mini-avatar" style="background:linear-gradient(135deg,#c98a4b,#e8b56d)">阿</div>
+          <div><div class="tnm-review-name">阿雾</div><div class="tnm-review-date">2026-11-15</div></div>
+        </div>
+        <p>《修表四十年》我看了两遍。老师说「慢不是拖延，是把每一步都走稳」，这句话我记在本子上了。</p>
+        <div class="tnm-review-stars">★★★★★</div>
+      </article>
+      <article class="tnm-review-card">
+        <div class="tnm-review-top">
+          <div class="tnm-mini-avatar" style="background:linear-gradient(135deg,#7b6cff,#4a3f7a)">木</div>
+          <div><div class="tnm-review-name">木木不加班</div><div class="tnm-review-date">2026-11-12</div></div>
+        </div>
+        <p>剪辑课真的很实用，节奏表我打印贴在显示器边上了。第一次知道自己的片子卡在哪里。</p>
+        <div class="tnm-review-stars">★★★★★</div>
+      </article>
+      <article class="tnm-review-card">
+        <div class="tnm-review-top">
+          <div class="tnm-mini-avatar" style="background:linear-gradient(135deg,#3d8f7a,#7bc4a8)">青</div>
+          <div><div class="tnm-review-name">青山不改</div><div class="tnm-review-date">2026-11-10</div></div>
+        </div>
+        <p>喜欢这个社区的地方在于，没有人催你三天两更。慢一点也没关系，认真拍就行。</p>
+        <div class="tnm-review-stars">★★★★☆</div>
+      </article>
+      <article class="tnm-review-card">
+        <div class="tnm-review-top">
+          <div class="tnm-mini-avatar" style="background:linear-gradient(135deg,#c25d21,#f0a96b)">三</div>
+          <div><div class="tnm-review-name">三月的风</div><div class="tnm-review-date">2026-11-08</div></div>
+        </div>
+        <p>投稿流程比想象中透明，审片意见写得非常具体，指出第几分钟的转折不够。这一点很难得。</p>
+        <div class="tnm-review-stars">★★★★★</div>
+      </article>
+      <article class="tnm-review-card">
+        <div class="tnm-review-top">
+          <div class="tnm-mini-avatar" style="background:linear-gradient(135deg,#a98ee0,#6a5aa8)">拾</div>
+          <div><div class="tnm-review-name">拾光者</div><div class="tnm-review-date">2026-11-05</div></div>
+        </div>
+        <p>影像墙是我每周都会来刷的板块，构图与色彩都很舒服，比很多资讯流耐看太多。</p>
+        <div class="tnm-review-stars">★★★★★</div>
+      </article>
+      <article class="tnm-review-card">
+        <div class="tnm-review-top">
+          <div class="tnm-mini-avatar" style="background:linear-gradient(135deg,#3a6d8c,#6fa8c9)">慢</div>
+          <div><div class="tnm-review-name">慢速列车</div><div class="tnm-review-date">2026-11-02</div></div>
+        </div>
+        <p>希望以后能多一点幕后内容，想看看一个镜头反复拍到第几次才成。总体来说非常值得信赖。</p>
+        <div class="tnm-review-stars">★★★★☆</div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 企业动态 + FAQ ============ -->
+<section class="tnm-section" id="tnm-news">
+  <div class="tnm-wrap tnm-split">
+    <div>
+      <div class="tnm-section-head" style="margin-bottom:26px;">
+        <div class="tnm-eyebrow">Newsroom</div>
+        <h2 class="tnm-h2">企业动态 · 官方发布</h2>
+        <p class="tnm-section-desc">品牌的重要更新、活动报名与合作公告都会在这里同步。</p>
+      </div>
+      <div class="tnm-timeline">
+        <div class="tnm-timeline-item">
+          <div class="tnm-timeline-date">2026-11-18 · 官方发布</div>
+          <h3>冬季影像企划《城市微光 · 第二季》开放报名</h3>
+          <p>首期主题「街角的三分钟」，面向所有社区成员征集 3 分钟以内的短片，报名截止 12 月 8 日。</p>
+        </div>
+        <div class="tnm-timeline-item">
+          <div class="tnm-timeline-date">2026-11-09 · 内容更新</div>
+          <h3>高清素材库完成第二批归档，检索功能上线</h3>
+          <p>签约创作者可凭账号检索近三年的拍摄素材，支持按地点、时间与标签组合筛选。</p>
+        </div>
+        <div class="tnm-timeline-item">
+          <div class="tnm-timeline-date">2026-10-28 · 品牌合作</div>
+          <h3>与三家独立书店达成线下展映合作</h3>
+          <p>每月举办一场社区观影会，映后由作者与观众面对面交流，首场已在城中店完成。</p>
+        </div>
+        <div class="tnm-timeline-item">
+          <div class="tnm-timeline-date">2026-10-12 · 社会责任</div>
+          <h3>城市职业影像档案计划启动第一期</h3>
+          <p>为夜间作业者留下影像记录，第一期已完成环卫、夜班医生与便利店店员三组拍摄。</p>
+        </div>
+      </div>
+    </div>
+    <div id="tnm-faq" style="scroll-margin-top:calc(var(--tnm-sticky) + 12px);">
+      <div class="tnm-section-head" style="margin-bottom:26px;">
+        <div class="tnm-eyebrow">Help Center</div>
+        <h2 class="tnm-h2">常见问题</h2>
+        <p class="tnm-section-desc">关于投稿、版权与观看的常见疑问。若仍有问题，欢迎通过页面底部的联系入口与我们沟通。</p>
+      </div>
+      <div class="tnm-faq">
+        <details open>
+          <summary>如何向蒂娜muchitina 投稿自己的作品？</summary>
+          <p>点击页面上方「投稿入口」按钮，填写作品标题、简介、时长与原始文件链接即可。编辑部通常在 5 个工作日内给出审片意见，通过后会与你确认发布排期与署名方式。</p>
+        </details>
+        <details>
+          <summary>投稿作品需要满足哪些技术要求？</summary>
+          <p>建议分辨率为 1080p 及以上，画幅不限，音频需无明显底噪与削波。若使用他人音乐或素材，请在提交时附上授权说明，品牌方会协助完成版权合规检查。</p>
+        </details>
+        <details>
+          <summary>作品的版权归谁所有？</summary>
+          <p>版权始终归创作者所有。品牌方获得的是在官方网站与官方账号范围内的展示授权，期限与范围在合作协议中明确列出，创作者可随时申请下架。</p>
+        </details>
+        <details>
+          <summary>成为签约创作者有哪些条件？</summary>
+          <p>我们更看重稳定的表达意愿与持续的产出能力，而非单一爆款。通常需要在社区发布至少 3 支作品，并通过一次线上沟通，双方确认选题方向后即可进入签约流程。</p>
+        </details>
+        <details>
+          <summary>品牌会为创作者提供哪些支持？</summary>
+          <p>包括选题共创、设备共享、剪辑与声音指导、版权代理以及季度性的创作补贴。具体资源按项目匹配，规则在每季度的创作者恳谈会上公开说明。</p>
+        </details>
+        <details>
+          <summary>可以转载站内作品到其他平台吗？</summary>
+          <p>需先取得创作者与品牌方的书面授权。未经授权的搬运会被平台处理，也欢迎通过页面底部的联系入口举报，我们会协助创作者维权。</p>
+        </details>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 联系 / 投稿 ============ -->
+<section class="tnm-section tnm-contact-sec" id="tnm-contact">
+  <div class="tnm-wrap tnm-contact-grid">
+    <div id="tnm-submit" style="scroll-margin-top:calc(var(--tnm-sticky) + 12px);">
+      <div class="tnm-eyebrow">Join Us</div>
+      <h2 class="tnm-h2">把你的作品，交给一个认真的团队</h2>
+      <p>无论是第一次拍片的新手，还是已经形成个人风格的创作者，蒂娜muchitina 都愿意成为你的合作方。品牌提供透明的流程、明确的反馈与可持续的支持，让创作这件事少一点消耗，多一点长期主义。</p>
+      <div class="tnm-contact-actions">
+        <button class="tnm-btn-primary" type="button" id="tnmOpenSubmit">立即投稿报名</button>
+        <button class="tnm-btn-line" type="button" id="tnmOpenShare">分享官方网站</button>
+      </div>
+    </div>
+    <div class="tnm-contact-card">
+      <div class="tnm-contact-row"><span>品牌合作邮箱</span><b>brand@tinamuchitina.com</b></div>
+      <div class="tnm-contact-row"><span>投稿咨询</span><b>creator@tinamuchitina.com</b></div>
+      <div class="tnm-contact-row"><span>线下展映合作</span><b>screening@tinamuchitina.com</b></div>
+      <div class="tnm-contact-row"><span>工作时间</span><b>周一至周五 10:00–19:00</b></div>
+      <div class="tnm-contact-row"><span>品牌地址</span><b>创意园区 B 栋 4 层</b></div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ 页脚 ============ -->
+<footer class="tnm-footer">
+  <div class="tnm-wrap">
+    <div class="tnm-footer-grid">
+      <div>
+        <div class="tnm-footer-brand">
+          <div class="tnm-brand-mark">TN</div>
+          <span class="tnm-footer-brand-name">蒂娜muchitina</span>
+        </div>
+        <p>蒂娜muchitina 官方网站，以原创影像记录城市、人物与生活。我们持续运营高品质内容生态，为创作者提供稳定支持，为观众提供值得反复观看的作品。</p>
+      </div>
+      <div>
+        <h4>内容导航</h4>
+        <ul>
+          <li><a href="#tnm-focus">焦点视频</a></li>
+          <li><a href="#tnm-videos">社区精选</a></li>
+          <li><a href="#tnm-topics">专题企划</a></li>
+          <li><a href="#tnm-wall">用户作品墙</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>品牌与加入</h4>
+        <ul>
+          <li><a href="#tnm-about">品牌故事</a></li>
+          <li><a href="#tnm-creators">创作者矩阵</a></li>
+          <li><a href="#tnm-news">企业动态</a></li>
+          <li><a href="#tnm-submit">投稿报名</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>支持</h4>
+        <ul>
+          <li><a href="#tnm-faq">常见问题</a></li>
+          <li><a href="#tnm-contact">联系我们</a></li>
+          <li><a href="#tnm-contact">版权声明</a></li>
+          <li><a href="#tnm-contact">合作洽谈</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="tnm-footer-bottom">
+      <span>© 2026 蒂娜muchitina 品牌官方网站 · 版权所有 · 持续运营中</span>
+      <span>原创内容 · 正版授权 · 高清交付</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ 浮动元素 ============ -->
+<button class="tnm-backtop" id="tnmBackTop" type="button" aria-label="回到顶部">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M12 19V5M6 11l6-6 6 6"/></svg>
+</button>
+
+<div class="tnm-toast" id="tnmToast" role="status" aria-live="polite"></div>
+
+<!-- 分享弹窗 -->
+<div class="tnm-modal" id="tnmShareModal">
+  <div class="tnm-modal-box tnm-modal-wrap">
+    <button class="tnm-modal-close" type="button" data-close="tnmShareModal" aria-label="关闭">×</button>
+    <h3>分享蒂娜muchitina 官方网站</h3>
+    <p>把官方网站分享给同样喜欢影像的朋友，一起参与冬季企划。</p>
+    <div class="tnm-share-row">
+      <button class="tnm-share-btn" type="button" data-share="微信">微信</button>
+      <button class="tnm-share-btn" type="button" data-share="微博">微博</button>
+      <button class="tnm-share-btn" type="button" data-share="QQ">QQ</button>
+      <button class="tnm-share-btn" type="button" data-share="复制链接">复制链接</button>
+    </div>
+  </div>
+</div>
+
+<!-- 投稿弹窗 -->
+<div class="tnm-modal" id="tnmSubmitModal">
+  <div class="tnm-modal-box tnm-modal-wrap">
+    <button class="tnm-modal-close" type="button" data-close="tnmSubmitModal" aria-label="关闭">×</button>
+    <h3>投稿报名</h3>
+    <p>填写基本信息，编辑部将在 5 个工作日内与你联系。</p>
+    <form id="tnmSubmitForm">
+      <div class="tnm-field">
+        <label for="tnmFormName">称呼</label>
+        <input id="tnmFormName" type="text" placeholder="如何称呼你" required>
+      </div>
+      <div class="tnm-field">
+        <label for="tnmFormContact">联系方式</label>
+        <input id="tnmFormContact" type="text" placeholder="邮箱或社交账号" required>
+      </div>
+      <div class="tnm-field">
+        <label for="tnmFormTopic">作品主题</label>
+        <input id="tnmFormTopic" type="text" placeholder="例如：街角的三分钟">
+      </div>
+      <div class="tnm-field">
+        <label for="tnmFormDesc">作品简述</label>
+        <textarea id="tnmFormDesc" rows="3" placeholder="简述你的作品内容与拍摄思路"></textarea>
+      </div>
+      <button class="tnm-modal-submit" type="submit">提交报名</button>
+    </form>
+  </div>
+</div>
+
+<!-- 作者信息弹窗 -->
+<div class="tnm-modal" id="tnmCreatorModal">
+  <div class="tnm-modal-box tnm-modal-wrap">
+    <button class="tnm-modal-close" type="button" data-close="tnmCreatorModal" aria-label="关闭">×</button>
+    <h3 id="tnmCreatorModalTitle">创作者</h3>
+    <p id="tnmCreatorModalDesc">创作者简介</p>
+    <div class="tnm-share-row">
+      <button class="tnm-share-btn" type="button" data-creator-action="关注">关注创作者</button>
+      <button class="tnm-share-btn" type="button" data-creator-action="作品">查看作品</button>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  var toastEl = document.getElementById('tnmToast');
+  var toastTimer = null;
+  function showToast(msg){
+    toastEl.textContent = msg;
+    toastEl.classList.add('is-show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){
+      toastEl.classList.remove('is-show');
+    }, 2100);
+  }
+
+  /* ---------- 移动端导航 ---------- */
+  var burger = document.getElementById('tnmBurger');
+  var mobileNav = document.getElementById('tnmMobileNav');
+  burger.addEventListener('click', function(){
+    var open = mobileNav.classList.toggle('is-open');
+    burger.classList.toggle('is-open', open);
+    burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  mobileNav.querySelectorAll('a').forEach(function(a){
+    a.addEventListener('click', function(){
+      mobileNav.classList.remove('is-open');
+      burger.classList.remove('is-open');
+      burger.setAttribute('aria-expanded','false');
+    });
+  });
+
+  /* ---------- 导航高亮 ---------- */
+  var navLinks = document.querySelectorAll('.tnm-nav a');
+  navLinks.forEach(function(link){
+    link.addEventListener('click', function(){
+      navLinks.forEach(function(l){ l.classList.remove('is-active'); });
+      link.classList.add('is-active');
+    });
+  });
+
+  /* ---------- 搜索 + 标签筛选 ---------- */
+  var searchInput = document.getElementById('tnmSearchInput');
+  var searchBtn = document.getElementById('tnmSearchBtn');
+  var videoGrid = document.getElementById('tnmVideoGrid');
+  var emptyTip = document.getElementById('tnmSearchEmpty');
+  var videoCards = Array.prototype.slice.call(videoGrid.querySelectorAll('.tnm-video-card'));
+  var filterBtns = document.querySelectorAll('.tnm-filter-btn');
+  var currentTag = 'all';
+
+  function applyFilter(){
+    var keyword = (searchInput.value || '').trim().toLowerCase();
+    var shown = 0;
+    videoCards.forEach(function(card){
+      var tag = card.getAttribute('data-tag') || '';
+      var text = card.textContent.toLowerCase();
+      var tagOk = (currentTag === 'all') || (tag === currentTag);
+      var keyOk = !keyword || text.indexOf(keyword) !== -1;
+      var visible = tagOk && keyOk;
+      card.style.display = visible ? '' : 'none';
+      if(visible) shown++;
+    });
+    emptyTip.style.display = shown === 0 ? 'block' : 'none';
+    if(shown === 0){
+      showToast('没有匹配的内容，试试其他关键词');
+    }else if(keyword){
+      showToast('为你找到 ' + shown + ' 支相关作品');
+    }
+  }
+
+  searchBtn.addEventListener('click', applyFilter);
+  searchInput.addEventListener('keydown', function(e){
+    if(e.key === 'Enter'){ e.preventDefault(); applyFilter(); }
+  });
+  searchInput.addEventListener('input', function(){
+    if(searchInput.value.trim() === ''){ applyFilter(); }
+  });
+
+  filterBtns.forEach(function(btn){
+    btn.addEventListener('click', function(){
+      filterBtns.forEach(function(b){ b.classList.remove('is-active'); });
+      btn.classList.add('is-active');
+      currentTag = btn.getAttribute('data-filter');
+      applyFilter();
+    });
+  });
+
+  /* ---------- 点赞 / 收藏 ---------- */
+  videoGrid.addEventListener('click', function(e){
+    var likeBtn = e.target.closest('.tnm-like-btn');
+    if(likeBtn){
+      e.preventDefault();
+      var span = likeBtn.querySelector('span');
+      var liked = likeBtn.classList.toggle('is-liked');
+      var raw = span.textContent.trim();
+      var num = 0;
+      if(raw.indexOf('k') !== -1){
+        num = Math.round(parseFloat(raw) * 1000);
+      }else{
+        num = parseInt(raw.replace(/[^\d]/g, ''), 10) || 0;
+      }
+      num = liked ? num + 1 : Math.max(0, num - 1);
+      span.textContent = num >= 1000 ? (num / 1000).toFixed(1).replace('.0','') + 'k' : num;
+      showToast(liked ? '已加入你的喜欢' : '已取消喜欢');
+      return;
+    }
+    var saveBtn = e.target.closest('.tnm-save-btn');
+    if(saveBtn){
+      e.preventDefault();
+      var saved = saveBtn.classList.toggle('is-saved');
+      showToast(saved ? '已收藏到我的片单' : '已取消收藏');
+    }
+  });
+
+  /* ---------- 创作者弹窗 ---------- */
+  var creatorData = {
+    '林岸映画': { desc: '擅长用固定机位与长镜头记录居住空间里的微小变化，作品气质安静克制。已发布 86 支作品，关注者 2.4 万。' },
+    '周牧言': { desc: '前杂志记者，转型影像创作。采访习惯是先沉默十分钟，再开始提问。已发布 54 支作品，关注者 3.7 万。' },
+    '剪辑师阿野': { desc: '把剪辑拆成可练习的步骤，课程强调对节奏与情绪的感知，而非单纯堆叠技巧。已发布 112 支作品，关注者 5.1 万。' },
+    '苏野': { desc: '骑行与步行爱好者，镜头常出现在城市的边角地带，为即将消失的场景留下档案。已发布 71 支作品，关注者 2.9 万。' }
+  };
+  var creatorModal = document.getElementById('tnmCreatorModal');
+  var creatorTitle = document.getElementById('tnmCreatorModalTitle');
+  var creatorDesc = document.getElementById('tnmCreatorModalDesc');
+
+  document.querySelectorAll('.tnm-creator-card').forEach(function(card){
+    card.addEventListener('click', function(){
+      var name = card.getAttribute('data-creator');
+      var data = creatorData[name] || { desc: '这位创作者的简介正在完善中。' };
+      creatorTitle.textContent = name;
+      creatorDesc.textContent = data.desc;
+      openModal('tnmCreatorModal');
+    });
+  });
+
+  creatorModal.addEventListener('click', function(e){
+    var btn = e.target.closest('[data-creator-action]');
+    if(!btn) return;
+    var act = btn.getAttribute('data-creator-action');
+    showToast(act === '关注' ? '已关注该创作者' : '正在打开创作者作品列表');
+    closeModal('tnmCreatorModal');
+  });
+
+  /* ---------- 弹窗开关 ---------- */
+  function openModal(id){
+    var m = document.getElementById(id);
+    if(m){ m.classList.add('is-open'); document.body.style.overflow = 'hidden'; }
+  }
+  function closeModal(id){
+    var m = document.getElementById(id);
+    if(m){ m.classList.remove('is-open'); document.body.style.overflow = ''; }
+  }
+  document.querySelectorAll('[data-close]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      closeModal(btn.getAttribute('data-close'));
+    });
+  });
+  document.querySelectorAll('.tnm-modal').forEach(function(m){
+    m.addEventListener('click', function(e){
+      if(e.target === m){ m.classList.remove('is-open'); document.body.style.overflow = ''; }
+    });
+  });
+  document.addEventListener('keydown', function(e){
+    if(e.key === 'Escape'){
+      document.querySelectorAll('.tnm-modal.is-open').forEach(function(m){
+        m.classList.remove('is-open');
+      });
+      document.body.style.overflow = '';
+    }
+  });
+
+  /* ---------- 分享 ---------- */
+  document.getElementById('tnmOpenShare').addEventListener('click', function(){
+    openModal('tnmShareModal');
+  });
+  document.querySelectorAll('[data-share]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var channel = btn.getAttribute('data-share');
+      if(channel === '复制链接'){
+        var link = window.location.href;
+        if(navigator.clipboard && navigator.clipboard.writeText){
+          navigator.clipboard.writeText(link).then(function(){
+            showToast('链接已复制到剪贴板');
+          }).catch(function(){
+            showToast('复制失败，请手动复制地址栏链接');
+          });
+        }else{
+          showToast('链接已准备好，请手动复制地址栏');
+        }
+      }else{
+        showToast('已生成' + channel + '分享卡片');
+      }
+      closeModal('tnmShareModal');
+    });
+  });
+
+  /* ---------- 投稿 ---------- */
+  document.getElementById('tnmOpenSubmit').addEventListener('click', function(){
+    openModal('tnmSubmitModal');
+  });
+  document.getElementById('tnmSubmitForm').addEventListener('submit', function(e){
+    e.preventDefault();
+    var name = document.getElementById('tnmFormName').value.trim();
+    if(!name){
+      showToast('请先填写称呼');
+      return;
+    }
+    showToast('报名已提交，编辑部会尽快联系你');
+    this.reset();
+    closeModal('tnmSubmitModal');
+  });
+
+  /* ---------- 回到顶部 ---------- */
+  var backTop = document.getElementById('tnmBackTop');
+  window.addEventListener('scroll', function(){
+    if(window.scrollY > 520){
+      backTop.classList.add('is-show');
+    }else{
+      backTop.classList.remove('is-show');
+    }
+  }, { passive:true });
+  backTop.addEventListener('click', function(){
+    window.scrollTo({ top:0, behavior:'smooth' });
+  });
+
+  /* ---------- 统计数字滚动 ---------- */
+  var statEl = document.getElementById('tnmStatWorks');
+  var statDone = false;
+  function animateStat(){
+    if(statDone || !statEl) return;
+    var rect = statEl.getBoundingClientRect();
+    if(rect.top < window.innerHeight - 80){
+      statDone = true;
+      var target = 1260;
+      var start = 0;
+      var step = Math.ceil(target / 40);
+      var timer = setInterval(function(){
+        start += step;
+        if(start >= target){
+          start = target;
+          clearInterval(timer);
+        }
+        statEl.textContent = start + '+';
+      }, 26);
+    }
+  }
+  window.addEventListener('scroll', animateStat, { passive:true });
+  animateStat();
+
+})();
+</script>
+</body>
+                                         </html>
